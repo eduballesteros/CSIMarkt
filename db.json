@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone",
+      "description": "Un teléfono móvil con pantalla táctil",
+      "price": 499,
+      "category": "Móviles",
+      "image": "https://example.com/images/smartphone.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Laptop",
+      "description": "Portátil con pantalla de 15 pulgadas",
+      "price": 999,
+      "category": "Portátiles",
+      "image": "https://example.com/images/laptop.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Ordenador de Escritorio",
+      "description": "PC de sobremesa con monitor incluido",
+      "price": 799,
+      "category": "Ordenadores",
+      "image": "https://example.com/images/desktop.jpg"
+    }
+  ]
+}
