@@ -5,32 +5,49 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Espacio entre las columnas */
+  gap: 20px; /* Espacio entre las columnas (margen entre tarjetas) */
 }
 
 .col-12 {
+  margin-bottom: 20px; /* Margen entre filas */
+}
+
+.col-md-3 {
+  display: flex;
+  justify-content: center;
   margin-bottom: 20px;
 }
 
-.col-md-4 {
+.app-product {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
-.app-product {
+.app-product img {
   width: 100%;
-  max-width: 350px; /* Controla el tamaño máximo de la tarjeta */
-  margin: 0 auto;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  flex-grow: 1;
+  padding: 15px;
 }
 
 @media (max-width: 767px) {
-  .col-md-4 {
-    flex: 0 0 100%; /* En pantallas pequeñas, las tarjetas ocuparán todo el ancho */
+  .col-md-3 {
+    flex: 0 0 100%;
   }
 }
 
 @media (min-width: 768px) {
-  .col-md-4 {
-    flex: 0 0 32%; /* En pantallas medianas y grandes, las tarjetas ocupan 1/3 del ancho */
+  .col-md-3 {
+    flex: 0 0 24%;
   }
 }

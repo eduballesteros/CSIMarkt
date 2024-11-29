@@ -1,0 +1,26 @@
+/* Asegurarse de que el body usa la fuente Poppins globalmente */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos para el Footer (similares al header) */
+mat-toolbar.footer {
+  background-color: red; /* Color de fondo rojo para el footer */
+  color: white; /* Texto blanco */
+  font-family: 'Poppins', sans-serif; /* Fuente Poppins */
+  padding: 0 16px; /* Espaciado interno en los lados */
+}
+
+
+
+/* Espaciado entre los elementos de la barra del footer */
+mat-toolbar.footer .spacer {
+  flex: 1 1 auto;
+}
+
+/* Asegurar que los botones se alineen correctamente */
+mat-toolbar.footer button {
+  margin-left: 16px; /* Espacio entre los botones */
+}
+
+
