@@ -1,0 +1,74 @@
+<!-- register.component.html -->
+<main class="full-height">
+  <article>
+    <section class="full-height">
+      <form (ngSubmit)="register()" class="container p-4 shadow-lg rounded bg-white">
+        <h1 class="text-center mb-4">Regístrate</h1>
+
+        <div class="social-icons text-center mb-4">
+          <img src="icons/facebook.png" alt="Facebook" class="social-icon mx-2" width="40" height="40" />
+          <img src="icons/google.png" alt="Google" class="social-icon mx-2" width="40" height="40" />
+          <img src="icons/x.png" alt="Twitter" class="social-icon mx-2" width="40" height="40" />
+        </div>
+
+        <div *ngIf="message" class="alert" [ngClass]="isSuccess ? 'alert-success' : 'alert-danger'">
+          {{ message }}
+        </div>
+
+        <div class="mb-3">
+          <input
+            [(ngModel)]="username"
+            name="username"
+            type="text"
+            class="form-control"
+            placeholder="Nombre completo"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <input
+            [(ngModel)]="email"
+            name="email"
+            type="email"
+            class="form-control"
+            placeholder="Correo electrónico"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <input
+            [(ngModel)]="password"
+            name="password"
+            type="password"
+            class="form-control"
+            placeholder="Contraseña"
+            required
+          />
+        </div>
+
+        <div class="mb-3">
+          <input
+            [(ngModel)]="confirmPassword"
+            name="confirmPassword"
+            type="password"
+            class="form-control"
+            placeholder="Confirmar contraseña"
+            required
+          />
+        </div>
+
+        <div class="d-grid gap-2">
+          <button type="submit" class="btn btn-primary">Registrarse</button>
+          <button type="reset" class="btn btn-secondary">Limpiar</button>
+        </div>
+
+        <p class="text-center mt-3">¿Ya tienes cuenta?</p>
+        <p class="text-center">
+          <a href="#" (click)="goToLogin()" class="btn btn-link">¡Inicia sesión!</a>
+        </p>
+      </form>
+    </section>
+  </article>
+</main>

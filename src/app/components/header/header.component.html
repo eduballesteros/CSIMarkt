@@ -1,24 +1,11 @@
-<head>
-  <!-- Preconexión a los dominios de Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<mat-toolbar color="primary">
+  <span>CSIMarkt</span>
 
-  <!-- Carga de la fuente Poppins -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-</head>
+  <span class="spacer"></span>
 
+  <!-- Botón para iniciar sesión -->
+  <button mat-button class="custom-button" (click)="goToLogin()">Iniciar sesión</button>
 
-<body>
-  <!-- Barra de navegación -->
-  <mat-toolbar color="primary">
-    <span>CSIMarkt</span>
-
-    <span class="spacer"></span>
-
-    <!-- Redirigir a login y registro usando routerLink -->
-    <button mat-button class="custom-button" routerLink="/login">Iniciar sesión</button>
-    <button mat-button class="custom-button" routerLink="/register">Registrarse</button>
-  </mat-toolbar>
-
-
-</body>
+  <!-- Botón para registrarse -->
+  <button mat-button class="custom-button" (click)="goToRegister()">Registrarse</button>
+</mat-toolbar>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';  // Importa Router para la navegación
 import { MatToolbarModule } from '@angular/material/toolbar';  // Módulo para la barra de herramientas
 import { MatIconModule } from '@angular/material/icon';      // Módulo para los iconos
 import { MatButtonModule } from '@angular/material/button';  // Módulo para los botones
@@ -19,5 +20,16 @@ import { MatListModule } from '@angular/material/list';       // Módulo para el
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-  // Lógica adicional si la necesitas
+
+  constructor(private router: Router) {}
+
+  // Método para redirigir a la página de login
+  goToLogin() {
+    this.router.navigate(['/login']);
+  }
+
+  // Método para redirigir a la página de registro
+  goToRegister() {
+    this.router.navigate(['/register']);
+  }
 }

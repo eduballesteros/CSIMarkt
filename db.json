@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Smartphone",
       "description": "Un teléfono móvil con pantalla táctil",
       "price": 499,
@@ -9,7 +9,7 @@
       "image": "https://example.com/images/smartphone.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Laptop",
       "description": "Portátil con pantalla de 15 pulgadas",
       "price": 999,
@@ -17,7 +17,7 @@
       "image": "https://example.com/images/laptop.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Ordenador de Escritorio",
       "description": "PC de sobremesa con monitor incluido",
       "price": 799,
@@ -25,13 +25,59 @@
       "image": "https://example.com/images/desktop.jpg"
     }
   ],
-
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "username": "testuser",
       "password": "password123"
+    },
+    {
+      "id": "5396",
+      "username": "Eduardo",
+      "email": "ballesterospereze@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "746c",
+      "username": "Eduardo",
+      "email": "ballesterosperezn@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "50c9",
+      "username": "Eduardo",
+      "email": "ballesterosperezd@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "1d39",
+      "username": "Eduardo",
+      "email": "ballesterosperezh@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "4981",
+      "username": "Eduardo",
+      "email": "ballesterosperezq@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "ea84",
+      "username": "Eduardo",
+      "email": "ballesterosperezre@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "85c6",
+      "username": "Eduardo",
+      "email": "ballesterosperez34@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "40b4",
+      "username": "Eduardo",
+      "email": "ballesterosperez345@gmail.com",
+      "password": "1234"
     }
   ]
-
 }

@@ -1,0 +1,59 @@
+/* Ajustes para el formulario */
+form {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 60px auto; /* Márgenes superior e inferior */
+}
+
+/* Estilos generales para los inputs */
+.form-control {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 20px 0; /* Añadido margen superior e inferior */
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+  background-color: #f9f9f9;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Ajustes para el botón de submit */
+button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: red;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 20px 0; /* Márgenes arriba y abajo */
+}
+
+/* Ajustes para el botón de limpiar */
+button[type="reset"] {
+  background-color: #6c757d;
+  margin-top: 15px;
+  margin-bottom: 15px; /* Añadido margen inferior */
+}
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1); /* Aumento de tamaño al pasar el ratón */
+}

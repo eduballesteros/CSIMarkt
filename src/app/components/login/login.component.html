@@ -1,0 +1,74 @@
+<main class="full-height">
+  <article>
+    <section class="full-height">
+      <form (ngSubmit)="login()" class="container p-4 shadow-lg rounded bg-white">
+        <h1 class="text-center mb-4">Inicia Sesión</h1>
+
+        <!-- Iconos de redes sociales -->
+        <div class="social-icons text-center mb-4">
+          <img
+            src="icons/facebook.png"
+            alt="Facebook"
+            class="social-icon mx-2"
+            width="40"
+            height="40"
+          />
+          <img
+            src="icons/google.png"
+            alt="Google"
+            class="social-icon mx-2"
+            width="40"
+            height="40"
+          />
+          <img
+            src="icons/x.png"
+            alt="Twitter"
+            class="social-icon mx-2"
+            width="40"
+            height="40"
+          />
+        </div>
+
+        <!-- Mostrar mensaje de éxito o error -->
+        <div *ngIf="message" class="alert" [ngClass]="isSuccess ? 'alert-success' : 'alert-danger'">
+          {{ message }}
+        </div>
+
+        <!-- Campo de correo electrónico -->
+        <div class="mb-3">
+          <input
+            [(ngModel)]="email"
+            name="email"
+            type="email"
+            class="form-control"
+            placeholder="Correo electrónico"
+            required
+          />
+        </div>
+
+        <!-- Campo de contraseña -->
+        <div class="mb-3">
+          <input
+            [(ngModel)]="password"
+            name="password"
+            type="password"
+            class="form-control"
+            placeholder="Contraseña"
+            required
+          />
+        </div>
+
+        <div class="d-grid gap-2">
+          <button type="submit" class="btn btn-primary" [disabled]="!email || !password">Entrar</button>
+          <button type="reset" class="btn btn-secondary">Limpiar</button>
+        </div>
+
+        <!-- Enlaces y acciones adicionales -->
+        <p class="text-center mt-3">¿Aún no tienes cuenta?</p>
+        <p class="text-center">
+          <a href="#" (click)="goToRegister()" class="btn btn-link">¡Regístrate!</a>
+        </p>
+      </form>
+    </section>
+  </article>
+</main>
