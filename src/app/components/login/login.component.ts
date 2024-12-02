@@ -35,7 +35,7 @@ export class LoginComponent {
         // Si las credenciales son correctas
         this.message = response.message;
         this.isSuccess = true;
-        this.router.navigate(['/home']);  // Redirige a la página de inicio (o dashboard)
+        this.router.navigate(['/dashboard']);  // Redirige a la página de inicio (o dashboard)
       } else {
         // Si las credenciales son incorrectas
         this.message = response.message || 'Credenciales incorrectas';
