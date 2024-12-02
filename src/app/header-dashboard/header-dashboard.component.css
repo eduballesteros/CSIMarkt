@@ -1,0 +1,42 @@
+/* Aplicar la fuente Poppins globalmente */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Barra de navegación */
+mat-toolbar {
+  background-color: red; /* Color rojo para la barra de navegación */
+  color: white; /* Texto blanco en la barra */
+  font-family: 'Poppins', sans-serif; /* Fuente Poppins */
+  padding: 0 16px; /* Espaciado interno en los lados */
+  display: flex;  /* Para alinear los elementos correctamente */
+  justify-content: space-between; /* Espacio entre los elementos */
+  align-items: center; /* Centrado vertical */
+}
+
+/* Espaciado entre los elementos de la barra de navegación */
+mat-toolbar .spacer {
+  flex: 1 1 auto; /* Este espacio flexible se encarga de separar los botones */
+}
+
+/* Estilos para los botones */
+button.custom-button {
+  font-family: 'Poppins', sans-serif;
+  background-color: white; /* Fondo blanco para los botones */
+  color: black; /* Color de texto negro */
+  border-radius: 4px; /* Bordes redondeados */
+  padding: 8px 16px; /* Añadir algo de relleno */
+  margin-left: 16px; /* Espacio entre los botones */
+  transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+
+/* Efecto al pasar el mouse sobre el botón */
+button.custom-button:hover {
+  background-color: #f1f1f1; /* Color de fondo gris claro al hacer hover */
+}
+
+/* Resaltar los enlaces activos */
+button.router-link-active {
+  background-color: rgba(0, 123, 255, 0.1); /* Fondo azul claro cuando el botón está activo */
+  font-weight: bold; /* Aumentar el grosor de la fuente cuando está activo */
+}
