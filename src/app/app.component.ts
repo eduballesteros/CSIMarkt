@@ -6,7 +6,7 @@ import { HeaderComponent } from './components/header/header.component';  // Impo
 @Component({
   selector: 'app-root',
   standalone: true, // Componente independiente
-  imports: [RouterOutlet, HeaderComponent, FooterComponent],  // Incluye HeaderComponent y FooterComponent
+  imports: [RouterOutlet,  FooterComponent],  // Incluye HeaderComponent y FooterComponent
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

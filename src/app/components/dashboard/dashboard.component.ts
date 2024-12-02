@@ -2,8 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { HeaderDashboardComponent } from '../header-dashboard/header-dashboard.component';
-import { ProductService , Product} from '../../services/product.service';
+import { ProductService } from '../../services/product.service';  // Importa solo el servicio
 import { ProductComponent } from '../product/product.component';
+import { Product } from '../../models/product.model';  // Importa el modelo Product
 
 @Component({
   selector: 'app-dashboard',
@@ -13,7 +14,7 @@ import { ProductComponent } from '../product/product.component';
   styleUrls: ['./dashboard.component.css'],
 })
 export class DashboardComponent implements OnInit {
-  title="CSIMarkt -Dashboard"
+  title = "CSIMarkt - Dashboard";
 
   products: Product[] = [];  // Especificamos el tipo de datos como Product[]
 

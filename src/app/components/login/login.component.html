@@ -37,7 +37,7 @@
         <!-- Campo de correo electrónico -->
         <div class="mb-3">
           <input
-            [(ngModel)]="email"
+            [(ngModel)]="usuario.email"
             name="email"
             type="email"
             class="form-control"
@@ -49,7 +49,7 @@
         <!-- Campo de contraseña -->
         <div class="mb-3">
           <input
-            [(ngModel)]="password"
+            [(ngModel)]="usuario.password"
             name="password"
             type="password"
             class="form-control"
@@ -59,7 +59,7 @@
         </div>
 
         <div class="d-grid gap-2">
-          <button type="submit" class="btn btn-primary" [disabled]="!email || !password">Entrar</button>
+          <button type="submit" class="btn btn-primary" [disabled]="!usuario.email || !usuario.password">Entrar</button>
           <button type="reset" class="btn btn-secondary">Limpiar</button>
         </div>
 
