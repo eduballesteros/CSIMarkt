@@ -43,7 +43,7 @@ Para ejecutar este proyecto en tu máquina local, sigue los siguientes pasos:
   -ng serve
 
 5. En una terminal diferente, inicializa el servidor Mock (JSON Server) para manejar la API
-   json-server --watch db.json --port 3000
+ - json-server --watch db.json --port 3000
    
 6. Abre la aplicación en tu navegador:
   http://localhost:4200
