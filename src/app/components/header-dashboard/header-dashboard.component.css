@@ -40,3 +40,30 @@ button.router-link-active {
   background-color: rgba(0, 123, 255, 0.1); /* Fondo azul claro cuando el botón está activo */
   font-weight: bold; /* Aumentar el grosor de la fuente cuando está activo */
 }
+
+/* Estilos para el mat-select */
+mat-form-field {
+  font-family: 'Poppins', sans-serif;
+  background-color: white; /* Fondo blanco */
+  border-radius: 4px; /* Bordes redondeados */
+  margin-right: 16px; /* Espacio entre el select y los botones */
+}
+
+mat-label {
+  color: black; /* Color negro para la etiqueta */
+  font-family: 'Poppins', sans-serif; /* Fuente Poppins */
+}
+
+/* Estilo de los mat-options */
+mat-option {
+  font-family: 'Poppins', sans-serif; /* Fuente Poppins */
+  background-color: white; /* Fondo blanco para las opciones */
+  color: black; /* Color negro para el texto */
+  padding: 8px 16px; /* Añadir algo de relleno */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Efecto al pasar el mouse sobre las opciones */
+mat-option:hover {
+  background-color: #f1f1f1; /* Fondo gris claro al hacer hover */
+}

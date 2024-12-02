@@ -62,13 +62,13 @@ export class RegisterComponent {
         ).subscribe(response => {
           // Asegurarnos de que la respuesta tiene el formato esperado
          // Asegurarnos de que la respuesta tiene el formato esperado
-         if (response && response.success) {
-          this.message = 'Error desconocido al registrar el usuario.';
-          this.isSuccess = true;  // Cambiar a 'true' en caso de éxito
-        } else {
-          this.message = response?.message || 'Correo electronico registrado correctamente';
-          this.router.navigate(['/dashboard']);  // Redirigir al login tras el registro
-          this.isSuccess = false;
+          if (response && response.success) {
+            this.message = 'Error desconocido al registrar el usuario.';
+            this.isSuccess = true;  // Cambiar a 'true' en caso de éxito
+          } else {
+            this.message = response?.message || 'Correo electronico registrado correctamente';
+            this.router.navigate(['/dashboard']);  // Redirigir al login tras el registro
+            this.isSuccess = false;
           }
         });
       }

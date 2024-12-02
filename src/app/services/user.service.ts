@@ -19,6 +19,7 @@ export class UserService {
     );
   }
 
+
   // Verificar si el correo ya está registrado
   checkEmailExists(email: string): Observable<boolean> {
     return this.http.get<any[]>(`${this.apiUrl}/users`).pipe(

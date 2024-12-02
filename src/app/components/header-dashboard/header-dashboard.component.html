@@ -1,12 +1,19 @@
-<mat-toolbar color="primary">
+<mat-toolbar>
   <span>CSIMarkt</span>
 
   <span class="spacer"></span>
 
-  <!-- Botón para iniciar sesión -->
-  <button mat-button class="custom-button">Filtrar Productos</button>
+  <!-- Select para filtrar productos -->
+  <mat-form-field appearance="fill">
+    <mat-label>Filtrar Productos</mat-label>
+    <mat-select [(ngModel)]="selectedCategory" (selectionChange)="filterProducts()">
+      <mat-option value="">Todas las categorías</mat-option>
+      <mat-option *ngFor="let category of categories" [value]="category">
+        {{ category }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
 
-  <!-- Botón para registrarse -->
+  <!-- Botón para añadir productos -->
   <button mat-button class="custom-button">Añadir Productos</button>
 </mat-toolbar>
-
