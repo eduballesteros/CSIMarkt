@@ -1,0 +1,53 @@
+.container {
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Espacio entre las columnas (margen entre tarjetas) */
+}
+
+.col-12 {
+  margin-bottom: 20px; /* Margen entre filas */
+}
+
+.col-md-3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.app-product {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 400px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.app-product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  flex-grow: 1;
+  padding: 15px;
+}
+
+@media (max-width: 767px) {
+  .col-md-3 {
+    flex: 0 0 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 24%;
+  }
+}
