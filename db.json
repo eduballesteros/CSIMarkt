@@ -6,7 +6,7 @@
       "description": "Un teléfono móvil con pantalla táctil",
       "price": 499,
       "category": "Móviles",
-      "image": "https://example.com/images/smartphone.jpg"
+      "image": "https://via.placeholder.com/150"
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "description": "Portátil con pantalla de 15 pulgadas",
       "price": 999,
       "category": "Portátiles",
-      "image": "https://example.com/images/laptop.jpg"
+      "image": "https://via.placeholder.com/150"
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "description": "PC de sobremesa con monitor incluido",
       "price": 799,
       "category": "Ordenadores",
-      "image": "https://example.com/images/desktop.jpg"
+      "image": "https://via.placeholder.com/150"
     }
   ],
   "users": [
@@ -77,6 +77,18 @@
       "id": "40b4",
       "username": "Eduardo",
       "email": "ballesterosperez345@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "31af",
+      "username": "Eduardo",
+      "email": "ballesterosperez67@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "a7a4",
+      "username": "Dudu",
+      "email": "ballesterosperez43@gmail.com",
       "password": "1234"
     }
   ]
