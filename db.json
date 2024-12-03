@@ -2,27 +2,403 @@
   "products": [
     {
       "id": "1",
-      "name": "Smartphone",
-      "description": "Un teléfono móvil con pantalla táctil",
-      "price": 499,
+      "name": "Samsung Galaxy S23",
+      "description": "Smartphone con cámara de 50MP y pantalla Dynamic AMOLED 2X",
+      "price": 799,
       "category": "Móviles",
-      "image": "https://via.placeholder.com/150"
+      "image": "https://via.placeholder.com/300x200?text=Samsung+Galaxy+S23"
     },
     {
       "id": "2",
-      "name": "Laptop",
-      "description": "Portátil con pantalla de 15 pulgadas",
+      "name": "iPhone 15",
+      "description": "Smartphone de Apple con chip A16 Bionic y pantalla Super Retina XDR",
       "price": 999,
-      "category": "Portátiles",
-      "image": "https://via.placeholder.com/150"
+      "category": "Móviles",
+      "image": "https://via.placeholder.com/300x200?text=iPhone+15"
     },
     {
       "id": "3",
-      "name": "Ordenador de Escritorio",
-      "description": "PC de sobremesa con monitor incluido",
+      "name": "Google Pixel 8",
+      "description": "Smartphone con cámara de 50MP y pantalla OLED",
+      "price": 699,
+      "category": "Móviles",
+      "image": "https://via.placeholder.com/300x200?text=Google+Pixel+8"
+    },
+    {
+      "id": "4",
+      "name": "OnePlus 11",
+      "description": "Smartphone de OnePlus con pantalla AMOLED 120Hz y procesador Snapdragon 8 Gen 2",
+      "price": 799,
+      "category": "Móviles",
+      "image": "https://via.placeholder.com/300x200?text=OnePlus+11"
+    },
+    {
+      "id": "5",
+      "name": "Xiaomi 13 Pro",
+      "description": "Smartphone con cámara Leica de 50MP y pantalla AMOLED QHD+",
+      "price": 899,
+      "category": "Móviles",
+      "image": "https://via.placeholder.com/300x200?text=Xiaomi+13+Pro"
+    },
+    {
+      "id": "6",
+      "name": "Samsung Galaxy Z Fold 5",
+      "description": "Smartphone plegable con pantalla Dynamic AMOLED 2X y cámara de 50MP",
+      "price": 1799,
+      "category": "Móviles",
+      "image": "https://via.placeholder.com/300x200?text=Samsung+Galaxy+Z+Fold+5"
+    },
+    {
+      "id": "7",
+      "name": "iPhone 14 Pro Max",
+      "description": "Smartphone de gama alta de Apple con cámara de 48MP y pantalla OLED",
+      "price": 1099,
+      "category": "Móviles",
+      "image": "https://via.placeholder.com/300x200?text=iPhone+14+Pro+Max"
+    },
+    {
+      "id": "8",
+      "name": "Sony Xperia 1 IV",
+      "description": "Smartphone con cámara profesional y pantalla 4K OLED",
+      "price": 1299,
+      "category": "Móviles",
+      "image": "https://via.placeholder.com/300x200?text=Sony+Xperia+1+IV"
+    },
+    {
+      "id": "9",
+      "name": "Oppo Find X5 Pro",
+      "description": "Smartphone con cámara Hasselblad y pantalla AMOLED 120Hz",
+      "price": 999,
+      "category": "Móviles",
+      "image": "https://via.placeholder.com/300x200?text=Oppo+Find+X5+Pro"
+    },
+    {
+      "id": "10",
+      "name": "Motorola Edge 40 Pro",
+      "description": "Smartphone con pantalla AMOLED 165Hz y cámara de 50MP",
+      "price": 799,
+      "category": "Móviles",
+      "image": "https://via.placeholder.com/300x200?text=Motorola+Edge+40+Pro"
+    },
+    {
+      "id": "11",
+      "name": "MacBook Pro 16\" M2 Pro",
+      "description": "Laptop con procesador Apple M2 Pro y pantalla Liquid Retina XDR",
+      "price": 2499,
+      "category": "Portátiles",
+      "image": "https://via.placeholder.com/300x200?text=MacBook+Pro+16+M2+Pro"
+    },
+    {
+      "id": "12",
+      "name": "Dell XPS 15",
+      "description": "Portátil de 15 pulgadas con procesador Intel i7 y GPU Nvidia RTX 3050",
+      "price": 1599,
+      "category": "Portátiles",
+      "image": "https://via.placeholder.com/300x200?text=Dell+XPS+15"
+    },
+    {
+      "id": "13",
+      "name": "HP Spectre x360",
+      "description": "Laptop convertible 2 en 1 con procesador Intel i7 y pantalla OLED 4K",
+      "price": 1399,
+      "category": "Portátiles",
+      "image": "https://via.placeholder.com/300x200?text=HP+Spectre+x360"
+    },
+    {
+      "id": "14",
+      "name": "Razer Blade 15",
+      "description": "Laptop gamer con pantalla de 15.6 pulgadas y GPU Nvidia RTX 3070",
+      "price": 1799,
+      "category": "Portátiles",
+      "image": "https://via.placeholder.com/300x200?text=Razer+Blade+15"
+    },
+    {
+      "id": "15",
+      "name": "Lenovo ThinkPad X1 Carbon Gen 11",
+      "description": "Portátil ultradelgado con procesador Intel i7 y pantalla 4K",
+      "price": 1699,
+      "category": "Portátiles",
+      "image": "https://via.placeholder.com/300x200?text=Lenovo+ThinkPad+X1+Carbon"
+    },
+    {
+      "id": "16",
+      "name": "Asus ZenBook 14",
+      "description": "Portátil compacto con procesador AMD Ryzen 7 y pantalla Full HD",
+      "price": 999,
+      "category": "Portátiles",
+      "image": "https://via.placeholder.com/300x200?text=Asus+ZenBook+14"
+    },
+    {
+      "id": "17",
+      "name": "Acer Predator Helios 300",
+      "description": "Portátil gaming con GPU Nvidia RTX 3060 y pantalla 144Hz",
+      "price": 1499,
+      "category": "Portátiles",
+      "image": "https://via.placeholder.com/300x200?text=Acer+Predator+Helios+300"
+    },
+    {
+      "id": "18",
+      "name": "Microsoft Surface Laptop 5",
+      "description": "Portátil con pantalla PixelSense y procesador Intel i7",
+      "price": 1399,
+      "category": "Portátiles",
+      "image": "https://via.placeholder.com/300x200?text=Microsoft+Surface+Laptop+5"
+    },
+    {
+      "id": "19",
+      "name": "Alienware X17",
+      "description": "Laptop para gaming con pantalla de 17.3\" y GPU Nvidia RTX 3080",
+      "price": 2399,
+      "category": "Portátiles",
+      "image": "https://via.placeholder.com/300x200?text=Alienware+X17"
+    },
+    {
+      "id": "20",
+      "name": "LG Gram 17",
+      "description": "Portátil ultraligero con pantalla de 17 pulgadas y procesador Intel i7",
+      "price": 1699,
+      "category": "Portátiles",
+      "image": "https://via.placeholder.com/300x200?text=LG+Gram+17"
+    },
+    {
+      "id": "21",
+      "name": "Apple iMac 24\" M1",
+      "description": "PC de sobremesa con chip M1 de Apple y pantalla Retina 4.5K",
+      "price": 1299,
+      "category": "Ordenadores",
+      "image": "https://via.placeholder.com/300x200?text=Apple+iMac+24+M1"
+    },
+    {
+      "id": "22",
+      "name": "Dell Inspiron 3880",
+      "description": "PC de sobremesa con procesador Intel i5 y 8GB de RAM",
+      "price": 599,
+      "category": "Ordenadores",
+      "image": "https://via.placeholder.com/300x200?text=Dell+Inspiron+3880"
+    },
+    {
+      "id": "23",
+      "name": "HP Pavilion Desktop TP01",
+      "description": "PC de sobremesa con procesador Intel i7 y 512GB SSD",
       "price": 799,
       "category": "Ordenadores",
-      "image": "https://via.placeholder.com/150"
+      "image": "https://via.placeholder.com/300x200?text=HP+Pavilion+Desktop+TP01"
+    },
+    {
+      "id": "24",
+      "name": "CyberPowerPC Gamer Xtreme VR",
+      "description": "PC gamer con GPU Nvidia RTX 3060 y procesador Intel i7",
+      "price": 1099,
+      "category": "Ordenadores",
+      "image": "https://via.placeholder.com/300x200?text=CyberPowerPC+Gamer+Xtreme+VR"
+    },
+    {
+      "id": "25",
+      "name": "Apple Mac Pro",
+      "description": "PC de sobremesa de alta gama con procesador Xeon y 32GB de RAM",
+      "price": 5999,
+      "category": "Ordenadores",
+      "image": "https://via.placeholder.com/300x200?text=Apple+Mac+Pro"
+    },
+    {
+      "id": "26",
+      "name": "Alienware Aurora R13",
+      "description": "PC de sobremesa para gaming con procesador Intel i9 y GPU Nvidia RTX 3080",
+      "price": 2499,
+      "category": "Ordenadores",
+      "image": "https://via.placeholder.com/300x200?text=Alienware+Aurora+R13"
+    },
+    {
+      "id": "27",
+      "name": "MSI Trident 3 10SI",
+      "description": "PC de sobremesa compacto para gaming con procesador Intel i7",
+      "price": 999,
+      "category": "Ordenadores",
+      "image": "https://via.placeholder.com/300x200?text=MSI+Trident+3+10SI"
+    },
+    {
+      "id": "28",
+      "name": "Lenovo Legion T5",
+      "description": "PC de sobremesa para gaming con procesador AMD Ryzen 7 y GPU Nvidia RTX 3070",
+      "price": 1299,
+      "category": "Ordenadores",
+      "image": "https://via.placeholder.com/300x200?text=Lenovo+Legion+T5"
+    },
+    {
+      "id": "29",
+      "name": "HP Omen 30L",
+      "description": "PC de sobremesa para gaming con procesador Intel i9 y GPU Nvidia RTX 3080",
+      "price": 1899,
+      "category": "Ordenadores",
+      "image": "https://via.placeholder.com/300x200?text=HP+Omen+30L"
+    },
+    {
+      "id": "30",
+      "name": "Acer Predator Orion 5000",
+      "description": "PC de sobremesa gamer con procesador Intel i9 y 64GB de RAM",
+      "price": 2399,
+      "category": "Ordenadores",
+      "image": "https://via.placeholder.com/300x200?text=Acer+Predator+Orion+5000"
+    },
+    {
+      "id": "31",
+      "name": "Samsung Galaxy Tab S8",
+      "description": "Tablet con pantalla AMOLED y S Pen incluido",
+      "price": 699,
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/300x200?text=Samsung+Galaxy+Tab+S8"
+    },
+    {
+      "id": "32",
+      "name": "iPad Pro 11\"",
+      "description": "Tablet de Apple con chip M2 y pantalla Liquid Retina",
+      "price": 799,
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/300x200?text=iPad+Pro+11"
+    },
+    {
+      "id": "33",
+      "name": "Microsoft Surface Pro 9",
+      "description": "Tablet convertible con procesador Intel i7 y Windows 11",
+      "price": 999,
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/300x200?text=Microsoft+Surface+Pro+9"
+    },
+    {
+      "id": "34",
+      "name": "Lenovo Tab P11 Pro",
+      "description": "Tablet Android con pantalla OLED 2K y Dolby Vision",
+      "price": 499,
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/300x200?text=Lenovo+Tab+P11+Pro"
+    },
+    {
+      "id": "35",
+      "name": "Huawei MatePad Pro",
+      "description": "Tablet Android con pantalla 2K y procesador Kirin 990",
+      "price": 549,
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/300x200?text=Huawei+MatePad+Pro"
+    },
+    {
+      "id": "36",
+      "name": "Samsung Galaxy Tab A8",
+      "description": "Tablet económica con pantalla de 10.5\" y procesador Unisoc T618",
+      "price": 229,
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/300x200?text=Samsung+Galaxy+Tab+A8"
+    },
+    {
+      "id": "37",
+      "name": "Amazon Fire HD 10",
+      "description": "Tablet económica con pantalla Full HD y Alexa integrada",
+      "price": 149,
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/300x200?text=Amazon+Fire+HD+10"
+    },
+    {
+      "id": "38",
+      "name": "Lenovo Yoga Tab 13",
+      "description": "Tablet Android con pantalla 2K y 8GB de RAM",
+      "price": 799,
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/300x200?text=Lenovo+Yoga+Tab+13"
+    },
+    {
+      "id": "39",
+      "name": "Apple iPad Air 5",
+      "description": "Tablet con chip M1 y pantalla Liquid Retina",
+      "price": 599,
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/300x200?text=Apple+iPad+Air+5"
+    },
+    {
+      "id": "40",
+      "name": "Xiaomi Pad 5",
+      "description": "Tablet con pantalla 120Hz y procesador Snapdragon 860",
+      "price": 399,
+      "category": "Tablets",
+      "image": "https://via.placeholder.com/300x200?text=Xiaomi+Pad+5"
+    },
+    {
+      "id": "41",
+      "name": "Bose QuietComfort 45",
+      "description": "Auriculares inalámbricos con cancelación de ruido activa",
+      "price": 329,
+      "category": "Accesorios",
+      "image": "https://via.placeholder.com/300x200?text=Bose+QuietComfort+45"
+    },
+    {
+      "id": "42",
+      "name": "Sony WH-1000XM5",
+      "description": "Auriculares inalámbricos con cancelación de ruido y audio Hi-Res",
+      "price": 349,
+      "category": "Accesorios",
+      "image": "https://via.placeholder.com/300x200?text=Sony+WH-1000XM5"
+    },
+    {
+      "id": "43",
+      "name": "Apple AirPods Pro 2",
+      "description": "Auriculares inalámbricos con cancelación activa de ruido",
+      "price": 249,
+      "category": "Accesorios",
+      "image": "https://via.placeholder.com/300x200?text=Apple+AirPods+Pro+2"
+    },
+    {
+      "id": "44",
+      "name": "Jabra Elite 85h",
+      "description": "Auriculares con cancelación activa de ruido y 36 horas de batería",
+      "price": 299,
+      "category": "Accesorios",
+      "image": "https://via.placeholder.com/300x200?text=Jabra+Elite+85h"
+    },
+    {
+      "id": "45",
+      "name": "Sennheiser Momentum 4",
+      "description": "Auriculares inalámbricos con cancelación activa de ruido y sonido Hi-Fi",
+      "price": 379,
+      "category": "Accesorios",
+      "image": "https://via.placeholder.com/300x200?text=Sennheiser+Momentum+4"
+    },
+    {
+      "id": "46",
+      "name": "Beats Studio3",
+      "description": "Auriculares con cancelación activa de ruido y sonido de alta fidelidad",
+      "price": 349,
+      "category": "Accesorios",
+      "image": "https://via.placeholder.com/300x200?text=Beats+Studio3"
+    },
+    {
+      "id": "47",
+      "name": "Bose 700",
+      "description": "Auriculares con cancelación activa de ruido y control táctil",
+      "price": 379,
+      "category": "Accesorios",
+      "image": "https://via.placeholder.com/300x200?text=Bose+700"
+    },
+    {
+      "id": "48",
+      "name": "Sony WH-XB910N",
+      "description": "Auriculares con graves extra y cancelación de ruido",
+      "price": 229,
+      "category": "Accesorios",
+      "image": "https://via.placeholder.com/300x200?text=Sony+WH-XB910N"
+    },
+    {
+      "id": "49",
+      "name": "Plantronics BackBeat Go 810",
+      "description": "Auriculares con sonido premium y cancelación activa de ruido",
+      "price": 179,
+      "category": "Accesorios",
+      "image": "https://via.placeholder.com/300x200?text=Plantronics+BackBeat+Go+810"
+    },
+    {
+      "id": "50",
+      "name": "Bang & Olufsen Beoplay H95",
+      "description": "Auriculares premium con sonido de alta calidad y cancelación de ruido",
+      "price": 799,
+      "category": "Accesorios",
+      "image": "https://via.placeholder.com/300x200?text=Bang+%26+Olufsen+Beoplay+H95"
     }
   ],
   "users": [
@@ -39,3 +415,5 @@
     }
   ]
 }
+
+
