@@ -5,11 +5,12 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Espacio entre las columnas (margen entre tarjetas) */
+  gap: 20px; /* Espacio entre columnas */
+  justify-content: center; /* Centra las columnas en caso de que haya menos de las necesarias para una fila completa */
 }
 
 .col-12 {
-  margin-bottom: 20px; /* Margen entre filas */
+  margin-bottom: 20px; /* Margen inferior entre filas */
 }
 
 .col-md-3 {
@@ -27,6 +28,12 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-product:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .app-product img {
@@ -38,16 +45,19 @@
 .card-body {
   flex-grow: 1;
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @media (max-width: 767px) {
   .col-md-3 {
-    flex: 0 0 100%;
+    flex: 0 0 100%; /* Ocupa todo el ancho en pantallas pequeñas */
   }
 }
 
 @media (min-width: 768px) {
   .col-md-3 {
-    flex: 0 0 24%;
+    flex: 0 0 24%; /* Ocupa un 24% en pantallas medianas o mayores */
   }
 }

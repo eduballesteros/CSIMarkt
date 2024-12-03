@@ -1,12 +1,11 @@
-<mat-toolbar>
+<mat-toolbar color="primary">
   <span>CSIMarkt</span>
-
   <span class="spacer"></span>
 
   <!-- Select para filtrar productos -->
   <mat-form-field appearance="fill">
     <mat-label>Filtrar Productos</mat-label>
-    <mat-select [(ngModel)]="selectedCategory" (selectionChange)="filterProducts()">
+    <mat-select [(ngModel)]="selectedCategory" (selectionChange)="onCategoryChange()">
       <mat-option value="">Todas las categorías</mat-option>
       <mat-option *ngFor="let category of categories" [value]="category">
         {{ category }}
