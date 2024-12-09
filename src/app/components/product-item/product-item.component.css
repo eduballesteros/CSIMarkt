@@ -1,0 +1,72 @@
+/* Contenedor principal de detalles del producto */
+.product-details {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Título del producto */
+.product-details h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Estilo para la imagen del producto */
+.product-img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* Estilo para los párrafos de detalles del producto */
+.product-details p {
+  font-size: 1.1rem;
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 18px;
+  text-align: left;
+}
+
+/* Estilo para los elementos fuertes (etiquetas de descripción) */
+.product-details p strong {
+  font-weight: bold;
+  color: #1abc9c;
+}
+
+/* Estilo del precio */
+.product-details p.price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #e74c3c;
+  margin-top: 10px;
+}
+
+/* Estilo para el mensaje de carga */
+ng-template #loading {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #95a5a6;
+  margin-top: 50px;
+  font-style: italic;
+}
+
+/* Estilo adicional para la transición de la carga */
+.product-details {
+  transition: all 0.3s ease;
+}
+
+.product-details:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}

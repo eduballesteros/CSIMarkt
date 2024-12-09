@@ -4,14 +4,16 @@
       "id": "1",
       "name": "Samsung Galaxy S23",
       "description": "Smartphone con cámara de 50MP y pantalla Dynamic AMOLED 2X",
+      "extraDescription": "El Samsung Galaxy S23 es un smartphone de última generación que redefine la experiencia móvil. Equipado con una impresionante cámara principal de 50MP, permite capturar imágenes con un nivel de detalle y claridad excepcionales, incluso en condiciones de poca luz, gracias a su avanzada tecnología de procesamiento de imagen. La pantalla Dynamic AMOLED 2X ofrece una calidad visual impresionante, con colores vibrantes y negros profundos, además de una frecuencia de actualización rápida que mejora la experiencia visual al navegar por redes sociales, ver videos o jugar a juegos de alta demanda gráfica. Este dispositivo es perfecto para quienes buscan un equilibrio entre rendimiento de vanguardia, durabilidad y un diseño elegante que se adapta a cualquier estilo de vida. Con una batería de larga duración y un rendimiento superior, el Galaxy S23 está diseñado para los usuarios más exigentes.",
       "price": 799,
       "category": "Móviles",
-      "image": "products/samsung23.png"
+      "image": "products/1.png"
     },
     {
       "id": "2",
       "name": "iPhone 15",
       "description": "Smartphone de Apple con chip A16 Bionic y pantalla Super Retina XDR",
+      "extraDescription": "El iPhone 15 es la última obra maestra de Apple, combinando un diseño sofisticado con tecnología puntera. Con el chip A16 Bionic, este smartphone ofrece un rendimiento excepcional en todas las aplicaciones, desde las más sencillas hasta las de alta demanda como juegos 3D o aplicaciones de edición de video. Su pantalla Super Retina XDR, una de las mejores en su clase, ofrece una calidad visual impresionante, con un brillo máximo y una resolución asombrosa que proporciona una experiencia inmersiva al ver contenido en HDR. Además, la integración de tecnologías avanzadas como Face ID y una cámara de última generación que permite tomar fotos y videos en 4K con una calidad inigualable hacen del iPhone 15 un dispositivo ideal para quienes buscan el equilibrio perfecto entre rendimiento, diseño y funcionalidad. Este dispositivo es perfecto para profesionales creativos, entusiastas de la tecnología y cualquier persona que valore una experiencia móvil premium.",
       "price": 999,
       "category": "Móviles",
       "image": "products/iphone15.jpg"
@@ -20,6 +22,7 @@
       "id": "3",
       "name": "Google Pixel 8",
       "description": "Smartphone con cámara de 50MP y pantalla OLED",
+      "extraDescription": "El Google Pixel 8 es un dispositivo móvil diseñado para quienes buscan lo mejor en fotografía y rendimiento de software. Su cámara principal de 50MP, equipada con tecnología de procesamiento de imágenes de Google, permite capturar fotos vibrantes y llenas de detalles, con una precisión de color impresionante. Además, la pantalla OLED ofrece una calidad visual espectacular con negros puros y una gran precisión de color, perfecta para ver contenido en alta resolución o disfrutar de juegos con gráficos detallados. El Pixel 8 está impulsado por el software más optimizado de Google, garantizando una experiencia de usuario fluida y rápida, con actualizaciones rápidas de seguridad y nuevas funciones a medida que se lanzan. Este smartphone está especialmente recomendado para los amantes de la tecnología que buscan una experiencia pura y sin bloatware, centrada en la eficiencia y el rendimiento.",
       "price": 699,
       "category": "Móviles",
       "image": "products/pixel8.png"
@@ -28,6 +31,7 @@
       "id": "4",
       "name": "OnePlus 11",
       "description": "Smartphone de OnePlus con pantalla AMOLED 120Hz y procesador Snapdragon 8 Gen 2",
+      "extraDescription": "El OnePlus 11 es un teléfono inteligente de alto rendimiento que lleva la experiencia móvil al siguiente nivel con su pantalla AMOLED de 120Hz, que proporciona una fluidez excepcional al navegar, jugar o desplazarse entre aplicaciones. Equipado con el potente procesador Snapdragon 8 Gen 2, el OnePlus 11 maneja sin esfuerzo multitareas, aplicaciones exigentes y juegos de alto rendimiento, ofreciendo una experiencia sin interrupciones. La cámara de alta resolución captura fotos de calidad profesional, mientras que su batería de larga duración y carga ultrarrápida aseguran que puedas disfrutar de todo lo que el dispositivo tiene para ofrecer sin preocuparte por quedarte sin energía. Además, su diseño elegante y materiales de alta calidad hacen que el OnePlus 11 sea tan atractivo por fuera como lo es por dentro, siendo la opción perfecta para quienes buscan potencia y estilo en un solo dispositivo.",
       "price": 799,
       "category": "Móviles",
       "image": "products/oneplus.png"
@@ -36,6 +40,7 @@
       "id": "5",
       "name": "Xiaomi 13 Pro",
       "description": "Smartphone con cámara Leica de 50MP y pantalla AMOLED QHD+",
+      "extraDescription": "El Xiaomi 13 Pro es un smartphone de alto rendimiento que combina la última tecnología con un diseño premium. Su cámara Leica de 50MP lleva la fotografía móvil a un nivel completamente nuevo, capturando imágenes con una calidad profesional, incluso en condiciones de poca luz. La pantalla AMOLED QHD+ ofrece una resolución impresionante y colores vibrantes, lo que mejora la visualización de fotos, videos y contenidos en general. Con el procesador más potente de Xiaomi y una batería de larga duración que se recarga rápidamente, el Xiaomi 13 Pro está diseñado para aquellos que buscan un dispositivo con potencia, diseño y características innovadoras. Ideal para usuarios que quieren un dispositivo que ofrezca rendimiento, creatividad y lujo en la palma de su mano.",
       "price": 899,
       "category": "Móviles",
       "image": "products/xiaomi13.jpg"
@@ -44,6 +49,7 @@
       "id": "6",
       "name": "Samsung Galaxy Z Fold 5",
       "description": "Smartphone plegable con pantalla Dynamic AMOLED 2X y cámara de 50MP",
+      "extraDescription": "El Samsung Galaxy Z Fold 5 es la última innovación en tecnología de smartphones plegables. Con su pantalla Dynamic AMOLED 2X, este dispositivo ofrece una calidad visual impresionante, perfecta para ver películas, jugar o trabajar. Su diseño plegable lo convierte en una herramienta versátil para la productividad y la multitarea, permitiendo a los usuarios realizar múltiples tareas a la vez con una facilidad asombrosa. La cámara de 50MP captura fotos de alta calidad, y su procesador potente permite ejecutar aplicaciones y juegos de alto rendimiento sin ningún esfuerzo. Este dispositivo es ideal para quienes buscan lo último en innovación, ofreciendo una experiencia móvil completamente nueva que combina la elegancia de un smartphone con la funcionalidad de una tableta.",
       "price": 1799,
       "category": "Móviles",
       "image": "products/zfold5.jpg"
@@ -52,6 +58,7 @@
       "id": "7",
       "name": "iPhone 14 Pro Max",
       "description": "Smartphone de gama alta de Apple con cámara de 48MP y pantalla OLED",
+      "extraDescription": "El iPhone 14 Pro Max es uno de los dispositivos más avanzados de Apple, diseñado para ofrecer un rendimiento sin igual y una experiencia de usuario premium. Su cámara de 48MP con múltiples lentes permite capturar imágenes impresionantes en cualquier situación, desde tomas en condiciones de baja luz hasta paisajes de alta resolución. La pantalla OLED ProMotion de 120Hz ofrece una fluidez impresionante en cada interacción, ya sea desplazándose por redes sociales o viendo contenido en HDR. Con el chip A16 Bionic, el iPhone 14 Pro Max puede manejar aplicaciones exigentes y multitarea con facilidad, mientras que su diseño de calidad y materiales de lujo aseguran que este smartphone sea una obra maestra tanto por dentro como por fuera.",
       "price": 1099,
       "category": "Móviles",
       "image": "products/14promax.jpg"
@@ -60,6 +67,7 @@
       "id": "8",
       "name": "Sony Xperia 1 IV",
       "description": "Smartphone con cámara profesional y pantalla 4K OLED",
+      "extraDescription": "El Sony Xperia 1 IV está diseñado para aquellos que buscan un dispositivo de calidad profesional para la fotografía y creación de contenido. Su cámara con tecnología avanzada de lentes y sensores profesionales captura fotos y videos de la mejor calidad, mientras que su pantalla 4K OLED proporciona una experiencia visual impresionante, con una resolución ultra alta que permite ver cada detalle con claridad. Este dispositivo está dirigido a creadores de contenido, fotógrafos y videógrafos que necesitan un smartphone que pueda hacer frente a los retos más exigentes y proporcionar un rendimiento excepcional tanto en fotografía como en rendimiento multimedia.",
       "price": 1299,
       "category": "Móviles",
       "image": "products/zperia.jpg"
@@ -68,6 +76,7 @@
       "id": "9",
       "name": "Oppo Find X5 Pro",
       "description": "Smartphone con cámara Hasselblad y pantalla AMOLED 120Hz",
+      "extraDescription": "El Oppo Find X5 Pro es un smartphone de gama alta diseñado para ofrecer una experiencia de usuario excepcional tanto en rendimiento como en calidad fotográfica. Equipado con una cámara principal desarrollada en colaboración con la renombrada marca Hasselblad, este dispositivo se destaca por sus capacidades fotográficas profesionales. La cámara principal ofrece una excelente capacidad para capturar imágenes nítidas y detalladas en condiciones de luz desafiantes, mientras que la cámara frontal permite selfies de alta calidad. La pantalla AMOLED de 6.7 pulgadas con una tasa de refresco de 120Hz es ideal para disfrutar de contenido multimedia con una fluidez impresionante y colores vibrantes. El Oppo Find X5 Pro está alimentado por un potente procesador y cuenta con una batería de carga rápida, lo que garantiza que el dispositivo esté siempre listo para ofrecer un rendimiento superior. Además, su diseño elegante y su construcción de alta calidad lo hacen destacar entre otros smartphones de su categoría. Con soporte para 5G y una variedad de características avanzadas, como reconocimiento facial y huella dactilar, el Oppo Find X5 Pro es una opción perfecta para aquellos que buscan un dispositivo premium con un rendimiento sobresaliente en todas las áreas.",
       "price": 999,
       "category": "Móviles",
       "image": "products/oppo5.png"
@@ -76,6 +85,7 @@
       "id": "10",
       "name": "Motorola Edge 40 Pro",
       "description": "Smartphone con pantalla AMOLED 165Hz y cámara de 50MP",
+      "extraDescription": "El Motorola Edge 40 Pro es un smartphone que se destaca por su impresionante pantalla AMOLED de 6.7 pulgadas con una tasa de refresco de 165Hz, lo que garantiza una experiencia visual ultra fluida, ideal para juegos y navegación web. La pantalla ofrece colores vibrantes y negros profundos, brindando una excelente calidad de imagen en todo momento. Con su potente procesador y 12GB de RAM, el Edge 40 Pro es capaz de manejar incluso las tareas más exigentes sin esfuerzo, proporcionando una experiencia multitarea sin interrupciones. La cámara principal de 50MP está equipada con una tecnología avanzada para ofrecer imágenes nítidas y detalladas, incluso en condiciones de baja luz, mientras que la cámara ultra ancha de 50MP permite capturar paisajes impresionantes con un campo de visión amplio. El dispositivo también cuenta con una cámara frontal de 60MP, ideal para tomar selfies de alta resolución. Además, el Motorola Edge 40 Pro tiene una batería de carga rápida de 68W que puede recargar el dispositivo en menos de una hora. Con su diseño elegante, construído con materiales premium y su capacidad para conectarse a redes 5G, este smartphone es perfecto para aquellos que buscan lo último en tecnología móvil.",
       "price": 799,
       "category": "Móviles",
       "image": "products/edge50.png"
@@ -84,6 +94,7 @@
       "id": "11",
       "name": "MacBook Pro 16\" M2 Pro",
       "description": "Laptop con procesador Apple M2 Pro y pantalla Liquid Retina XDR",
+      "extraDescription": "El MacBook Pro de 16\" con el procesador Apple M2 Pro es un portátil de alto rendimiento diseñado para usuarios profesionales que requieren potencia, eficiencia y una calidad visual sobresaliente. Equipado con el revolucionario chip M2 Pro, este dispositivo ofrece un rendimiento sin igual en tareas que van desde la edición de video en 8K hasta el desarrollo de software y la ejecución de aplicaciones complejas. La pantalla Liquid Retina XDR de 16 pulgadas es uno de los mayores atractivos de este modelo, ofreciendo una resolución impresionante y un contraste profundo, lo que lo convierte en una opción ideal para diseñadores gráficos, fotógrafos y videógrafos que necesitan una precisión de color excepcional. Además, el MacBook Pro M2 Pro tiene un sistema de refrigeración avanzado que mantiene la temperatura bajo control incluso durante tareas intensivas, garantizando un rendimiento estable y consistente durante largas horas de trabajo. Con hasta 64GB de RAM y almacenamiento SSD ultrarrápido de hasta 8TB, este dispositivo está más que preparado para manejar las cargas de trabajo más exigentes. El MacBook Pro también incluye un sistema de altavoces envolventes, una cámara web 1080p y una excelente autonomía de batería de hasta 21 horas, lo que lo convierte en el compañero perfecto para profesionales creativos y técnicos.",
       "price": 2499,
       "category": "Portátiles",
       "image": "products/mac16.jpg"
@@ -92,6 +103,7 @@
       "id": "12",
       "name": "Dell XPS 15",
       "description": "Portátil de 15 pulgadas con procesador Intel i7 y GPU Nvidia RTX 3050",
+      "extraDescription": "El Dell XPS 15 es un portátil premium que combina diseño, potencia y rendimiento en un dispositivo compacto y elegante. Con una pantalla InfinityEdge de 15 pulgadas que ofrece una resolución 4K y una cobertura del 100% del espectro sRGB, la experiencia visual es impresionante, ideal para profesionales que trabajan con gráficos de alta calidad y contenido visual. El procesador Intel Core i7 de 10ª generación y la tarjeta gráfica dedicada Nvidia RTX 3050 hacen de este dispositivo una máquina poderosa capaz de manejar tareas exigentes como la edición de video 4K, el diseño 3D y el modelado de realidad virtual. La construcción del XPS 15 es de aluminio mecanizado y fibra de carbono, lo que le proporciona un aspecto elegante y una durabilidad excepcional. El sistema de refrigeración avanzado de este portátil garantiza que el dispositivo mantenga su rendimiento incluso durante tareas intensivas. Con una batería de hasta 12 horas de duración, el Dell XPS 15 es perfecto para aquellos que necesitan un dispositivo potente y portátil para trabajar en cualquier lugar, sin comprometer el rendimiento.",
       "price": 1599,
       "category": "Portátiles",
       "image": "products/xps15.jpg"
@@ -100,6 +112,7 @@
       "id": "13",
       "name": "HP Spectre x360",
       "description": "Laptop convertible 2 en 1 con procesador Intel i7 y pantalla OLED 4K",
+      "extraDescription": "El HP Spectre x360 es una laptop convertible 2 en 1 que ofrece una combinación perfecta de portabilidad, versatilidad y rendimiento. Con un procesador Intel i7 de última generación y una pantalla OLED 4K de 13.3 pulgadas, este dispositivo es ideal tanto para tareas de productividad como para disfrutar de contenido multimedia con una calidad impresionante. La pantalla OLED 4K ofrece colores vibrantes y negros profundos, lo que la convierte en la opción ideal para editores de fotos, diseñadores gráficos y cualquier persona que valore la calidad visual. La característica convertible del Spectre x360 permite utilizarlo tanto como laptop tradicional como en modo tablet, lo que ofrece una flexibilidad increíble. Además, el dispositivo está construido con materiales premium y un diseño ultradelgado, lo que lo convierte en una opción perfecta para profesionales y estudiantes que buscan un dispositivo de alta gama. Con una duración de batería de hasta 12 horas y un sistema de refrigeración eficiente, el HP Spectre x360 garantiza un rendimiento fluido y duradero durante todo el día.",
       "price": 1399,
       "category": "Portátiles",
       "image": "products/hpspectre.jpg"
@@ -108,6 +121,7 @@
       "id": "14",
       "name": "Razer Blade 15",
       "description": "Laptop gamer con pantalla de 15.6 pulgadas y GPU Nvidia RTX 3070",
+      "extraDescription": "La Razer Blade 15 es una laptop diseñada específicamente para gamers que exigen el máximo rendimiento y una calidad gráfica excepcional. Equipado con una pantalla de 15.6 pulgadas y una tasa de refresco de 144Hz, este dispositivo ofrece una experiencia visual ultra fluida, ideal para juegos de alta demanda. La GPU Nvidia RTX 3070 proporciona un rendimiento gráfico impresionante, lo que permite jugar a títulos AAA con configuraciones gráficas de máxima calidad y altas tasas de frames por segundo. El diseño de la Razer Blade 15 es elegante y profesional, lo que la convierte en una opción perfecta tanto para juegos como para el trabajo en la oficina. Con un procesador Intel Core i7 de última generación, 16GB de RAM y una memoria SSD de 1TB, esta laptop es perfecta para multitareas y proyectos creativos. La capacidad de refrigeración avanzada mantiene el sistema a temperaturas óptimas incluso en sesiones de juego intensivas. Además, con un peso ligero y una duración de batería razonable, la Razer Blade 15 es perfecta para quienes buscan potencia y movilidad.",
       "price": 1799,
       "category": "Portátiles",
       "image": "products/razerblade.jpg"
@@ -116,6 +130,7 @@
       "id": "15",
       "name": "Lenovo ThinkPad X1 Carbon Gen 11",
       "description": "Portátil ultradelgado con procesador Intel i7 y pantalla 4K",
+      "extraDescription": "El Lenovo ThinkPad X1 Carbon Gen 11 es la última versión de uno de los portátiles más emblemáticos de la marca, diseñado para profesionales que necesitan un equipo potente, liviano y elegante. Con su chasis de carbono ultradelgado, este modelo es perfecto para quienes buscan un equipo de alto rendimiento sin sacrificar portabilidad. Su procesador Intel i7 de última generación asegura un rendimiento excelente en tareas multitarea, mientras que la pantalla 4K ofrece una resolución impresionante, ideal para trabajos de diseño, edición de video y tareas visuales intensivas. Además, el teclado ThinkPad es reconocido por su comodidad y precisión, haciendo de este dispositivo una opción ideal para quienes pasan largas horas escribiendo. La batería tiene una excelente duración, lo que permite una jornada de trabajo completa sin necesidad de recarga. Con un peso de solo 1.1 kg, este portátil es extremadamente ligero y fácil de transportar.",
       "price": 1699,
       "category": "Portátiles",
       "image": "products/lenovothon.jpg"
@@ -124,6 +139,7 @@
       "id": "16",
       "name": "Asus ZenBook 14",
       "description": "Portátil compacto con procesador AMD Ryzen 7 y pantalla Full HD",
+      "extraDescription": "El Asus ZenBook 14 es un portátil compacto y elegante que combina potencia y portabilidad en un solo dispositivo. Equipado con un procesador AMD Ryzen 7, este dispositivo puede manejar múltiples tareas al mismo tiempo sin comprometer el rendimiento. La pantalla Full HD de 14 pulgadas con tecnología NanoEdge ofrece una experiencia visual inmersiva con bordes delgados y una resolución clara y vibrante. Ideal para quienes necesitan trabajar mientras están en movimiento, el ZenBook 14 es perfecto para estudiantes, profesionales y viajeros frecuentes. Su diseño ligero y duradero lo hace fácil de transportar en cualquier bolsa o mochila. Además, la duración de su batería es sobresaliente, lo que permite horas de uso continuo sin necesidad de recargar. El teclado retroiluminado y el diseño ergonómico aseguran comodidad en largas sesiones de trabajo.",
       "price": 999,
       "category": "Portátiles",
       "image": "products/zenbook.jpg"
@@ -132,6 +148,7 @@
       "id": "17",
       "name": "Acer Predator Helios 300",
       "description": "Portátil gaming con GPU Nvidia RTX 3060 y pantalla 144Hz",
+      "extraDescription": "El Acer Predator Helios 300 está diseñado para los gamers más exigentes, ofreciendo un rendimiento de nivel superior en una carcasa de aluminio duradera y resistente. Equipado con una GPU Nvidia RTX 3060 y un procesador Intel Core i7, este portátil es capaz de ejecutar los juegos más recientes en configuraciones altas sin perder fluidez ni rendimiento. La pantalla de 15.6 pulgadas con una tasa de refresco de 144Hz proporciona una experiencia visual ultra suave, perfecta para juegos competitivos donde cada fotograma cuenta. El sistema de refrigeración avanzado, con ventiladores AeroBlade 3D, mantiene el equipo a una temperatura óptima incluso durante largas sesiones de juego. Además, su teclado RGB retroiluminado permite personalizar la iluminación, añadiendo un toque de estilo y funcionalidad. La batería de larga duración asegura horas de juego sin interrupciones, haciendo de este un dispositivo ideal tanto para gamers como para aquellos que requieren un alto rendimiento en tareas exigentes.",
       "price": 1499,
       "category": "Portátiles",
       "image": "products/predator.jpg"
@@ -140,6 +157,7 @@
       "id": "18",
       "name": "Microsoft Surface Laptop 5",
       "description": "Portátil con pantalla PixelSense y procesador Intel i7",
+      "extraDescription": "El Microsoft Surface Laptop 5 es una máquina potente y extremadamente versátil, diseñada para aquellos que buscan un equilibrio entre rendimiento y portabilidad. Con una pantalla PixelSense de 13.5 pulgadas, ofrece colores nítidos y una resolución impresionante, ideal para la creación de contenido, edición de fotos y videos, o para disfrutar de contenido multimedia. El procesador Intel i7 de 12ª generación proporciona una velocidad impresionante y la capacidad de manejar múltiples tareas y aplicaciones exigentes sin esfuerzo. Su diseño ultra delgado y liviano hace que sea fácil de transportar, lo que lo convierte en el compañero perfecto para profesionales en movimiento. La batería tiene una duración de hasta 32 horas de uso continuo, lo que garantiza que no se quede atrás durante todo el día. Además, el Surface Laptop 5 está equipado con una excelente calidad de construcción y un teclado cómodo, ideal para escribir durante largas horas.",
       "price": 1399,
       "category": "Portátiles",
       "image": "products/surface5pro.jpg"
@@ -148,6 +166,7 @@
       "id": "19",
       "name": "Alienware X17",
       "description": "Laptop para gaming con pantalla de 17.3\" y GPU Nvidia RTX 3080",
+      "extraDescription": "El Alienware X17 es la laptop para gaming definitiva, diseñada para ofrecer un rendimiento de nivel de escritorio en un dispositivo portátil. Con una pantalla de 17.3 pulgadas que ofrece una resolución FHD+ y una tasa de refresco de 360Hz, esta máquina garantiza una experiencia visual inigualable, con detalles nítidos y movimientos ultra suaves. La potente GPU Nvidia RTX 3080 junto con un procesador Intel Core i9 de última generación proporcionan un rendimiento extremo, capaz de manejar los juegos más exigentes y las aplicaciones más intensivas sin problemas. El sistema de refrigeración Cryo-Tech de Alienware mantiene el dispositivo fresco incluso durante las sesiones de juego más intensas. Además, el diseño premium y la retroiluminación RGB personalizable del teclado le dan un toque de estilo a este portátil de alto rendimiento. Con una duración de batería mejorada y puertos de conectividad avanzados, el Alienware X17 es ideal para gamers que no quieren comprometer la calidad ni el rendimiento.",
       "price": 2399,
       "category": "Portátiles",
       "image": "products/alienware.jpg"
@@ -156,6 +175,7 @@
       "id": "20",
       "name": "LG Gram 17",
       "description": "Portátil ultraligero con pantalla de 17 pulgadas y procesador Intel i7",
+      "extraDescription": "El LG Gram 17 es un portátil ultraligero de 17 pulgadas diseñado para ofrecer un rendimiento impresionante sin sacrificar la portabilidad. Con una pantalla IPS de 17 pulgadas, este dispositivo ofrece una experiencia visual increíblemente nítida y vibrante, ideal para la edición de fotos, diseño gráfico o simplemente para disfrutar de contenido multimedia en su máxima expresión. El procesador Intel Core i7 de 11ª generación permite realizar tareas exigentes con rapidez, mientras que la batería de larga duración garantiza que puedas trabajar durante todo el día sin necesidad de recargarlo. Con su diseño delgado y peso extremadamente bajo, el LG Gram 17 es la opción perfecta para quienes necesitan un dispositivo de alto rendimiento en un formato portátil.",
       "price": 1699,
       "category": "Portátiles",
       "image": "products/lggran.jpg"
@@ -164,6 +184,7 @@
       "id": "21",
       "name": "Apple iMac 24\" M1",
       "description": "PC de sobremesa con chip M1 de Apple y pantalla Retina 4.5K",
+      "extraDescription": "El iMac de 24\" con chip M1 de Apple es un PC de sobremesa que redefine la forma en que trabajamos y nos divertimos. Con su diseño delgado y colores vibrantes, es perfecto para cualquier espacio de trabajo. Su pantalla Retina 4.5K ofrece colores más vivos y detalles más nítidos, brindando una experiencia visual sin igual. El chip M1 de Apple proporciona un rendimiento asombroso, mejorando la velocidad de las aplicaciones y la capacidad multitarea. Además, gracias a su arquitectura de bajo consumo, el iMac M1 es mucho más eficiente energéticamente que otros PCs. Con un sistema operativo macOS optimizado para este chip, el iMac 24\" M1 proporciona una experiencia fluida y rápida, ideal para la productividad, la creatividad y el entretenimiento.",
       "price": 1299,
       "category": "Ordenadores",
       "image": "products/imac14.jpg"
@@ -172,6 +193,7 @@
       "id": "22",
       "name": "Dell Inspiron 3880",
       "description": "PC de sobremesa con procesador Intel i5 y 8GB de RAM",
+      "extraDescription": "El Dell Inspiron 3880 es un PC de sobremesa asequible y potente, diseñado para satisfacer las necesidades diarias de los usuarios. Equipado con un procesador Intel Core i5 de décima generación y 8GB de RAM, este equipo es ideal para tareas como la navegación web, el trabajo en oficina, y la transmisión de contenido en línea. Su diseño compacto permite ubicarlo fácilmente en cualquier escritorio sin ocupar mucho espacio, mientras que su capacidad de expansión te ofrece la opción de mejorar su rendimiento a medida que aumentan tus necesidades. Con una construcción confiable y un precio accesible, el Dell Inspiron 3880 es la opción perfecta para usuarios domésticos que buscan un equipo funcional para uso general.",
       "price": 599,
       "category": "Ordenadores",
       "image": "products/dellins.jpg"
@@ -180,6 +202,7 @@
       "id": "23",
       "name": "HP Pavilion Desktop TP01",
       "description": "PC de sobremesa con procesador Intel i7 y 512GB SSD",
+      "extraDescription": "El HP Pavilion Desktop TP01 es un potente PC de sobremesa que combina un diseño elegante con un rendimiento impresionante. Equipado con un procesador Intel Core i7 de décima generación y un almacenamiento SSD de 512GB, este equipo es ideal tanto para tareas cotidianas como para proyectos más exigentes. Su SSD ofrece tiempos de carga rápidos y una mayor fiabilidad en comparación con los discos duros tradicionales. Además, cuenta con una amplia conectividad, lo que facilita la conexión con dispositivos externos y la expansión de la capacidad de almacenamiento. Ya sea que necesites un PC para trabajar, estudiar o entretenerte, el HP Pavilion TP01 es una excelente opción.",
       "price": 799,
       "category": "Ordenadores",
       "image": "products/hppavi.jpg"
@@ -188,6 +211,7 @@
       "id": "24",
       "name": "CyberPowerPC Gamer Xtreme VR",
       "description": "PC gamer con GPU Nvidia RTX 3060 y procesador Intel i7",
+      "extraDescription": "El CyberPowerPC Gamer Xtreme VR es una PC de sobremesa diseñada específicamente para los gamers más exigentes. Con una potente tarjeta gráfica Nvidia RTX 3060 y un procesador Intel Core i7, este equipo te permite jugar a los títulos más recientes con gráficos fluidos y de alta calidad. La compatibilidad con VR (realidad virtual) te permite sumergirte por completo en mundos virtuales, brindando una experiencia de juego mucho más inmersiva. Además, su diseño elegante y sus luces LED personalizables aportan un toque de estilo a tu espacio de juego. Con 16GB de RAM y un SSD rápido, el CyberPowerPC Gamer Xtreme VR es ideal para aquellos que buscan un rendimiento superior en sus sesiones de juego y en tareas multitarea.",
       "price": 1099,
       "category": "Ordenadores",
       "image": "products/cyberpo.jpg"
@@ -196,6 +220,7 @@
       "id": "25",
       "name": "Apple Mac Pro",
       "description": "PC de sobremesa de alta gama con procesador Xeon y 32GB de RAM",
+      "extraDescription": "El Apple Mac Pro es la opción ideal para profesionales que requieren un alto rendimiento en tareas complejas, como la edición de video, la renderización 3D o el desarrollo de software. Equipado con un procesador Intel Xeon de última generación y 32GB de RAM, el Mac Pro es capaz de manejar cargas de trabajo intensivas sin esfuerzo. Su diseño modular permite personalizar fácilmente sus componentes, desde la capacidad de almacenamiento hasta la tarjeta gráfica, para adaptarse a tus necesidades específicas. Con su sistema operativo macOS, el Mac Pro ofrece una experiencia de usuario fluida y optimizada, y su capacidad para ejecutar múltiples aplicaciones y tareas de manera simultánea lo convierte en una herramienta invaluable para los profesionales creativos y técnicos.",
       "price": 5999,
       "category": "Ordenadores",
       "image": "products/Apple Mac Pro.jpg"
@@ -204,6 +229,7 @@
       "id": "26",
       "name": "Alienware Aurora R13",
       "description": "PC de sobremesa para gaming con procesador Intel i9 y GPU Nvidia RTX 3080",
+      "extraDescription": "La Alienware Aurora R13 es una máquina de juego de alto rendimiento diseñada para los jugadores más exigentes. Equipado con un procesador Intel Core i9 y una potente tarjeta gráfica Nvidia RTX 3080, este PC ofrece una experiencia de juego fluida y sin interrupciones, incluso en los títulos más exigentes en cuanto a gráficos. Su sistema de refrigeración avanzado mantiene el hardware funcionando a temperaturas óptimas durante largas sesiones de juego. El diseño futurista de la Alienware Aurora R13 incluye una carcasa personalizable con luces LED, lo que añade un toque de estilo a tu configuración de juego. Con 32GB de RAM y almacenamiento SSD, la Aurora R13 garantiza tiempos de carga rápidos y un rendimiento sobresaliente en cualquier juego.",
       "price": 2499,
       "category": "Ordenadores",
       "image": "products/Alienware Aurora R13.jpg"
@@ -212,6 +238,7 @@
       "id": "27",
       "name": "MSI Trident 3 10SI",
       "description": "PC de sobremesa compacto para gaming con procesador Intel i7",
+      "extraDescription": "El MSI Trident 3 10SI es un PC compacto pero de alto rendimiento, especialmente diseñado para jugadores que necesitan potencia en un formato pequeño. Equipado con un procesador Intel Core i7 y una tarjeta gráfica Nvidia GTX 1660 Ti, el Trident 3 ofrece un rendimiento impresionante en juegos y aplicaciones exigentes. Su pequeño tamaño lo convierte en una excelente opción para aquellos que no tienen mucho espacio en su escritorio pero aún así buscan una experiencia de juego fluida y de alta calidad. Además, su diseño moderno y elegante con luces LED personalizables le da un toque de estilo único a tu espacio de juego.",
       "price": 999,
       "category": "Ordenadores",
       "image": "products/MSI Trident 3 10SI.jpg"
@@ -220,6 +247,7 @@
       "id": "28",
       "name": "Lenovo Legion T5",
       "description": "PC de sobremesa para gaming con procesador AMD Ryzen 7 y GPU Nvidia RTX 3070",
+      "extraDescription": "El Lenovo Legion T5 es un PC de sobremesa de alto rendimiento orientado a los gamers y profesionales que buscan una máquina capaz de manejar cargas de trabajo pesadas. Equipado con un procesador AMD Ryzen 7 y una tarjeta gráfica Nvidia RTX 3070, el Legion T5 es ideal para jugar títulos de última generación y realizar tareas de diseño gráfico, edición de video y más. Su sistema de refrigeración avanzada asegura que el equipo funcione de manera óptima durante largas sesiones de uso intensivo. Con su diseño agresivo y su potente hardware, el Lenovo Legion T5 ofrece una experiencia de juego fluida y envolvente.",
       "price": 1299,
       "category": "Ordenadores",
       "image": "products/Lenovo Legion T5.jpg"
@@ -228,6 +256,7 @@
       "id": "29",
       "name": "HP Omen 30L",
       "description": "PC de sobremesa para gaming con procesador Intel i9 y GPU Nvidia RTX 3080",
+      "extraDescription": "El HP Omen 30L es una máquina de juego de alta gama diseñada para ofrecer el máximo rendimiento en todos los aspectos. Con un procesador Intel Core i9 y una tarjeta gráfica Nvidia RTX 3080, este PC ofrece una experiencia de juego ultrarrápida y con gráficos de calidad superior. Su diseño elegante y minimalista con iluminación RGB personalizable le da un aspecto moderno y atractivo. Además, su potente sistema de refrigeración asegura que el equipo funcione sin problemas, incluso en sesiones de juego prolongadas. Ya sea para juegos AAA o tareas intensivas de productividad, el HP Omen 30L es capaz de manejarlo todo con facilidad.",
       "price": 1899,
       "category": "Ordenadores",
       "image": "products/HP Omen 30L.jpg"
@@ -236,6 +265,7 @@
       "id": "30",
       "name": "Acer Predator Orion 5000",
       "description": "PC de sobremesa gamer con procesador Intel i9 y 64GB de RAM",
+      "extraDescription": "El Acer Predator Orion 5000 es una PC de sobremesa premium destinada a los gamers más serios y los profesionales de la creación de contenido. Equipado con un procesador Intel Core i9 y una enorme cantidad de 64GB de RAM, esta máquina está diseñada para ofrecer un rendimiento extremo, incluso en las aplicaciones más exigentes. Su potente tarjeta gráfica y su almacenamiento SSD garantizan tiempos de carga rápidos y una fluidez excepcional en los juegos. Además, su sistema de refrigeración avanzada mantiene el equipo funcionando a temperaturas óptimas durante largas sesiones de uso intensivo. Con un diseño atractivo y agresivo, el Predator Orion 5000 es ideal para aquellos que buscan lo mejor en rendimiento y estética.",
       "price": 2399,
       "category": "Ordenadores",
       "image": "products/Acer Predator Orion 5000.jpg"
@@ -244,6 +274,7 @@
       "id": "31",
       "name": "Samsung Galaxy Tab S8",
       "description": "Tablet con pantalla AMOLED y S Pen incluido",
+      "extraDescription": "La Samsung Galaxy Tab S8 es una tablet de alta gama diseñada para ofrecer una experiencia visual increíble gracias a su pantalla AMOLED. Con el S Pen incluido, esta tablet es ideal para tomar notas, dibujar o realizar tareas de diseño gráfico con una precisión excepcional. Su procesador de última generación y su sistema operativo Android optimizado ofrecen un rendimiento suave y rápido, lo que la convierte en una excelente opción tanto para el entretenimiento como para la productividad. Ya sea que necesites una tablet para ver tus series favoritas o para trabajar, la Galaxy Tab S8 lo tiene todo.",
       "price": 699,
       "category": "Tablets",
       "image": "products/Samsung Galaxy Tab S8.jpg"
@@ -252,6 +283,7 @@
       "id": "32",
       "name": "iPad Pro 11\"",
       "description": "Tablet de Apple con chip M2 y pantalla Liquid Retina",
+      "extraDescription": "El iPad Pro de 11\" es una tablet premium de Apple que combina el rendimiento de su chip M2 con una pantalla Liquid Retina de alta resolución. Su chip M2 le permite ejecutar aplicaciones y juegos de manera fluida, mientras que la pantalla proporciona una experiencia visual impresionante con colores vibrantes y detalles nítidos. La compatibilidad con el Apple Pencil hace que esta tablet sea ideal para tareas de diseño gráfico, dibujo y escritura. Con una batería de larga duración y un diseño delgado y liviano, el iPad Pro 11\" es perfecto tanto para el trabajo como para el entretenimiento.",
       "price": 799,
       "category": "Tablets",
       "image": "products/iPad Pro 11.jpg"
@@ -260,6 +292,7 @@
       "id": "33",
       "name": "Microsoft Surface Pro 9",
       "description": "Tablet convertible con procesador Intel i7 y Windows 11",
+      "extraDescription": "El Microsoft Surface Pro 9 es una tablet convertible que se puede usar tanto como una laptop como una tablet independiente. Equipado con un procesador Intel Core i7 y el sistema operativo Windows 11, ofrece un rendimiento robusto para tareas diarias, productividad y entretenimiento. Su pantalla PixelSense de alta resolución proporciona una experiencia visual nítida, mientras que su diseño delgado y liviano lo convierte en una excelente opción para quienes necesitan un dispositivo flexible y portátil. Además, la Surface Pro 9 es compatible con el Surface Pen, lo que la convierte en una excelente herramienta para dibujar y tomar notas.",
       "price": 999,
       "category": "Tablets",
       "image": "products/Microsoft Surface Pro 9.jpg"
@@ -268,6 +301,7 @@
       "id": "34",
       "name": "Lenovo Tab P11 Pro",
       "description": "Tablet Android con pantalla OLED 2K y Dolby Vision",
+      "extraDescription": "La Lenovo Tab P11 Pro es una tablet Android de gama alta con una impresionante pantalla OLED 2K y soporte para Dolby Vision, lo que la convierte en una excelente opción para ver contenido multimedia en alta calidad. Su diseño delgado y elegante es perfecto para llevarla a cualquier parte, mientras que su procesador de alto rendimiento garantiza que puedas realizar tareas multitarea con facilidad. Con 6GB de RAM y almacenamiento expandible, la Lenovo Tab P11 Pro es ideal para el entretenimiento, la productividad y las tareas creativas.",
       "price": 499,
       "category": "Tablets",
       "image": "products/Lenovo Tab P11 Pro.jpg"
@@ -276,6 +310,7 @@
       "id": "35",
       "name": "Huawei MatePad Pro",
       "description": "Tablet Android con pantalla 2K y procesador Kirin 990",
+      "extraDescription": "El Huawei MatePad Pro es una tablet Android de alta gama diseñada para ofrecer un rendimiento excepcional y una experiencia visual impresionante. Su pantalla 2K es perfecta para ver contenido multimedia en alta definición, mientras que el procesador Kirin 990 garantiza una velocidad y rendimiento fluidos en cualquier aplicación. Con una batería de larga duración y la compatibilidad con el M-Pen, el MatePad Pro es ideal para aquellos que buscan una tablet poderosa tanto para el entretenimiento como para la productividad. Además, su diseño minimalista y su cuerpo de metal lo hacen elegante y resistente.",
       "price": 549,
       "category": "Tablets",
       "image": "products/Huawei MatePad Pro.jpg"
@@ -284,6 +319,7 @@
       "id": "36",
       "name": "Samsung Galaxy Tab A8",
       "description": "Tablet económica con pantalla de 10.5\" y procesador Unisoc T618",
+      "extraDescription": "La Samsung Galaxy Tab A8 es una tablet asequible que ofrece un gran rendimiento a un precio económico. Con una pantalla de 10.5 pulgadas y un procesador Unisoc T618, esta tablet es ideal para navegar por Internet, ver vídeos, jugar a juegos ligeros y realizar tareas diarias. Su diseño compacto y ligero la convierte en una excelente opción para estudiantes o personas que buscan una tablet funcional para el uso diario. Además, su precio competitivo hace que sea una opción atractiva para aquellos que no quieren comprometer la calidad, pero buscan algo asequible.",
       "price": 229,
       "category": "Tablets",
       "image": "products/Samsung Galaxy Tab A8.jpg"
@@ -292,6 +328,7 @@
       "id": "37",
       "name": "Amazon Fire HD 10",
       "description": "Tablet económica con pantalla Full HD y Alexa integrada",
+      "extraDescription": "La Amazon Fire HD 10 es una tablet económica que ofrece una experiencia sólida para aquellos que buscan un dispositivo accesible y funcional. Con una pantalla Full HD de 10.1 pulgadas, proporciona una calidad visual decente para ver contenido multimedia, navegar por la web y utilizar aplicaciones. Una de las características destacadas de esta tablet es la integración de Alexa, lo que permite interactuar con el dispositivo mediante comandos de voz para controlar otros dispositivos inteligentes, obtener información o reproducir música. Su diseño sencillo y su precio competitivo hacen de la Fire HD 10 una excelente opción para quienes buscan un dispositivo básico pero eficiente.",
       "price": 149,
       "category": "Tablets",
       "image": "products/Amazon Fire HD 10.jpg"
@@ -300,6 +337,7 @@
       "id": "38",
       "name": "Lenovo Yoga Tab 13",
       "description": "Tablet Android con pantalla 2K y 8GB de RAM",
+      "extraDescription": "La Lenovo Yoga Tab 13 es una tablet Android premium diseñada para aquellos que buscan rendimiento y versatilidad. Con una pantalla 2K de alta calidad y 8GB de RAM, esta tablet ofrece una experiencia visual impresionante y un rendimiento fluido para multitarea, juegos y aplicaciones exigentes. Su diseño único con una base de soporte integrada permite usarla en diferentes posiciones, convirtiéndola en una opción ideal para ver películas, leer o realizar videollamadas. La batería de larga duración y el sonido Dolby Atmos completan la experiencia, haciendo de la Yoga Tab 13 una excelente opción para entretenimiento y productividad en movimiento.",
       "price": 799,
       "category": "Tablets",
       "image": "products/Lenovo Yoga Tab 13.jpg"
@@ -308,6 +346,7 @@
       "id": "39",
       "name": "Apple iPad Air 5",
       "description": "Tablet con chip M1 y pantalla Liquid Retina",
+      "extraDescription": "El iPad Air 5 es una tablet de Apple con un diseño delgado y liviano, pero con un rendimiento excepcional gracias a su chip M1. Este potente chip, que también se encuentra en algunos modelos de Mac, le da a la tablet la capacidad de ejecutar aplicaciones exigentes, juegos y tareas de productividad sin esfuerzo. La pantalla Liquid Retina de 10.9 pulgadas ofrece colores brillantes y detalles nítidos, ideal para ver contenido multimedia o realizar trabajos creativos. Además, la compatibilidad con el Apple Pencil hace que sea perfecta para aquellos que buscan una herramienta para dibujar o tomar notas. Con su rendimiento, diseño y capacidad de integración con el ecosistema Apple, el iPad Air 5 es una opción excelente para usuarios que buscan potencia en un formato compacto.",
       "price": 599,
       "category": "Tablets",
       "image": "products/Apple iPad Air 5.jpg"
@@ -316,6 +355,7 @@
       "id": "40",
       "name": "Xiaomi Pad 5",
       "description": "Tablet con pantalla 120Hz y procesador Snapdragon 860",
+      "extraDescription": "La Xiaomi Pad 5 es una tablet de gama media con características de alto rendimiento a un precio accesible. Con una pantalla de 11 pulgadas y una tasa de refresco de 120Hz, la tablet ofrece una experiencia visual fluida, ideal para ver videos, jugar juegos y realizar tareas de productividad. Equipado con el potente procesador Snapdragon 860 y una batería de larga duración, el Xiaomi Pad 5 es perfecto para aquellos que necesitan un dispositivo para multitarea sin comprometer el rendimiento. Su diseño elegante y su gran calidad de construcción lo convierten en una excelente opción para quienes buscan un equilibrio entre precio y rendimiento.",
       "price": 399,
       "category": "Tablets",
       "image": "products/Xiaomi Pad 5.jpg"
@@ -324,6 +364,7 @@
       "id": "41",
       "name": "Bose QuietComfort 45",
       "description": "Auriculares inalámbricos con cancelación de ruido activa",
+      "extraDescription": "Los Bose QuietComfort 45 son auriculares inalámbricos diseñados para ofrecer una experiencia auditiva premium gracias a su avanzada tecnología de cancelación de ruido activa. Son ideales para aquellos que buscan sumergirse en su música, películas o llamadas sin distracciones externas. Los auriculares ofrecen hasta 24 horas de batería, con un diseño cómodo y ligero para un uso prolongado. Con una calidad de sonido nítida y equilibrada, los Bose QC45 también cuentan con un modo de conciencia ambiental para escuchar los sonidos a tu alrededor cuando sea necesario. Son la opción perfecta para quienes viajan con frecuencia o desean una experiencia de escucha inmersiva en cualquier entorno.",
       "price": 329,
       "category": "Accesorios",
       "image": "products/Bose QuietComfort 45.jpg"
@@ -332,6 +373,7 @@
       "id": "42",
       "name": "Sony WH-1000XM5",
       "description": "Auriculares inalámbricos con cancelación de ruido y audio Hi-Res",
+      "extraDescription": "Los Sony WH-1000XM5 son unos de los mejores auriculares inalámbricos disponibles en el mercado, destacándose por su tecnología avanzada de cancelación de ruido y su capacidad de ofrecer audio de alta resolución (Hi-Res). Su diseño elegante y ergonómico asegura comodidad durante largas sesiones de uso, mientras que la calidad del sonido es excepcional, con bajos profundos y agudos claros. Con hasta 30 horas de autonomía y funciones como el modo de sonido adaptativo que ajusta la cancelación de ruido según el entorno, los WH-1000XM5 son ideales para quienes buscan una experiencia de audio sin igual tanto en viajes como en el día a día.",
       "price": 349,
       "category": "Accesorios",
       "image": "products/Sony WH-1000XM5.jpg"
@@ -340,6 +382,7 @@
       "id": "43",
       "name": "Apple AirPods Pro 2",
       "description": "Auriculares inalámbricos con cancelación activa de ruido",
+      "extraDescription": "Los Apple AirPods Pro 2 son la segunda generación de los auriculares inalámbricos más populares de Apple. Con una cancelación activa de ruido mejorada, estos auriculares te permiten disfrutar de tu música o llamadas sin interrupciones del entorno. La integración con el ecosistema de Apple es perfecta, ofreciendo un emparejamiento rápido y sencillo con dispositivos como iPhones, iPads y Macs. Además, cuentan con un modo de transparencia que permite escuchar sonidos del entorno cuando lo necesitas. La autonomía ha mejorado significativamente, permitiendo hasta 6 horas de uso con una sola carga. Con un diseño compacto y elegante, los AirPods Pro 2 son una opción excepcional para quienes buscan calidad, comodidad y tecnología avanzada.",
       "price": 249,
       "category": "Accesorios",
       "image": "products/Apple AirPods Pro 2.jpg"
@@ -348,6 +391,7 @@
       "id": "44",
       "name": "Jabra Elite 85h",
       "description": "Auriculares con cancelación activa de ruido y 36 horas de batería",
+      "extraDescription": "Los Jabra Elite 85h ofrecen una experiencia auditiva premium con una notable cancelación activa de ruido. Con 36 horas de duración de la batería, estos auriculares están diseñados para durar toda la jornada sin necesidad de recargarlos. La tecnología SmartSound ajusta el sonido de los auriculares según el entorno, lo que significa que la experiencia de escucha es siempre óptima. Los Jabra Elite 85h también están equipados con un sistema de micrófonos para mejorar la calidad de las llamadas, lo que los convierte en una excelente opción tanto para escuchar música como para realizar videollamadas o llamadas telefónicas.",
       "price": 299,
       "category": "Accesorios",
       "image": "products/Jabra Elite 85h.jpg"
@@ -356,6 +400,7 @@
       "id": "45",
       "name": "Sennheiser Momentum 4",
       "description": "Auriculares inalámbricos con cancelación activa de ruido y sonido Hi-Fi",
+      "extraDescription": "Los Sennheiser Momentum 4 están diseñados para los amantes del sonido de alta fidelidad, proporcionando una experiencia auditiva inmersiva con una excelente cancelación activa de ruido. Estos auriculares ofrecen un sonido excepcional, con graves profundos, agudos cristalinos y un rango medio balanceado, lo que los convierte en ideales para escuchar música de alta calidad. La tecnología de cancelación de ruido de Sennheiser permite bloquear los ruidos no deseados, asegurando una experiencia auditiva sin interrupciones. Con una batería de larga duración, hasta 60 horas de uso, y un diseño cómodo, los Momentum 4 son perfectos para quienes buscan una calidad de sonido superior en sus auriculares inalámbricos.",
       "price": 379,
       "category": "Accesorios",
       "image": "products/Sennheiser Momentum 4.jpg"
@@ -364,6 +409,7 @@
       "id": "46",
       "name": "Beats Studio3",
       "description": "Auriculares con cancelación activa de ruido y sonido de alta fidelidad",
+      "extraDescription": "Los Beats Studio3 son auriculares inalámbricos de alto rendimiento que combinan un diseño moderno con la tecnología avanzada de cancelación activa de ruido. Con su sonido de alta fidelidad, ofrecen una experiencia auditiva envolvente con bajos profundos y una claridad excepcional. La cancelación de ruido activa ajusta el nivel de aislamiento según el entorno, lo que te permite disfrutar de tu música sin distracciones. Con hasta 22 horas de duración de la batería, estos auriculares son perfectos para largos viajes o para usar durante todo el día. Además, cuentan con un diseño cómodo y elegante, característico de la marca Beats.",
       "price": 349,
       "category": "Accesorios",
       "image": "products/Beats Studio3.jpg"
@@ -372,6 +418,7 @@
       "id": "47",
       "name": "Bose 700",
       "description": "Auriculares con cancelación activa de ruido y control táctil",
+      "extraDescription": "Los Bose 700 ofrecen un diseño elegante y sofisticado con características avanzadas como la cancelación activa de ruido ajustable y el control táctil. Estos auriculares proporcionan un sonido de alta calidad con un rendimiento excepcional en cualquier entorno, permitiendo disfrutar de música, llamadas y contenido multimedia sin distracciones. Con un sistema de micrófono avanzado, las llamadas son nítidas y claras incluso en entornos ruidosos. Su diseño cómodo y su batería de larga duración (hasta 20 horas) hacen de los Bose 700 una opción ideal para quienes valoran la calidad de sonido y la comodidad en su uso diario.",
       "price": 379,
       "category": "Accesorios",
       "image": "products/Bose 700.jpg"
@@ -380,6 +427,7 @@
       "id": "48",
       "name": "Sony WH-XB910N",
       "description": "Auriculares con graves extra y cancelación de ruido",
+      "extraDescription": "Los Sony WH-XB910N son auriculares inalámbricos diseñados para los amantes de los graves profundos. Equipados con la tecnología Extra Bass de Sony, ofrecen un sonido potente con bajos mejorados para una experiencia auditiva impactante. La cancelación de ruido activa bloquea los ruidos no deseados, lo que te permite disfrutar de tu música sin interrupciones. Con hasta 30 horas de autonomía, estos auriculares también cuentan con un diseño ergonómico y suave para un ajuste cómodo durante largas sesiones de escucha.",
       "price": 229,
       "category": "Accesorios",
       "image": "products/Sony WH-XB910N.jpg"
@@ -388,6 +436,7 @@
       "id": "49",
       "name": "Plantronics BackBeat Go 810",
       "description": "Auriculares con sonido premium y cancelación activa de ruido",
+      "extraDescription": "Los Plantronics BackBeat Go 810 son auriculares inalámbricos con una impresionante calidad de sonido y tecnología de cancelación activa de ruido. Con una batería de hasta 22 horas de duración, estos auriculares son perfectos para quienes necesitan un dispositivo de audio confiable para viajes largos o para usar durante todo el día. Su diseño cómodo y ligero permite usarlos durante horas sin incomodidad, mientras que la tecnología de cancelación de ruido te sumerge en una experiencia auditiva sin interrupciones. La calidad de sonido premium hace que sean ideales para cualquier tipo de música o contenido multimedia.",
       "price": 179,
       "category": "Accesorios",
       "image": "products/Plantronics BackBeat Go 810.jpg"
@@ -396,6 +445,7 @@
       "id": "50",
       "name": "Bang & Olufsen Beoplay H95",
       "description": "Auriculares premium con sonido de alta calidad y cancelación de ruido",
+      "extraDescription": "Los Bang & Olufsen Beoplay H95 son auriculares premium diseñados para ofrecer una experiencia de sonido excepcionalmente clara y detallada. Equipados con la última tecnología de cancelación de ruido, permiten disfrutar de un sonido puro sin interrupciones, ya sea para música, películas o llamadas. Con un diseño elegante y materiales de alta calidad, los Beoplay H95 no solo ofrecen un rendimiento superior, sino también una comodidad insuperable gracias a su estructura ligera y su almohadilla de cuero de calidad. La batería de larga duración de hasta 38 horas asegura que estos auriculares sean perfectos para los viajeros frecuentes o para aquellos que buscan lo mejor en tecnología de audio.",
       "price": 799,
       "category": "Accesorios",
       "image": "products/Bang & Olufsen Beoplay H95.jpg"
