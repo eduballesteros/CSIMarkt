@@ -50,6 +50,38 @@
   justify-content: space-between;
 }
 
+.filter-container {
+  margin: 20px auto;
+  max-width: 600px; /* Limita el ancho para que no sea demasiado grande */
+  width: 100%;
+}
+
+.filter-container input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.filter-container input:focus {
+  outline: none;
+  border-color: #007bff; /* Cambiar el borde al hacer foco */
+}
+
+.filter-container input::placeholder {
+  color: #999; /* Color del texto en el placeholder */
+}
+
+/* Opcional: Agregar un estilo de icono si es necesario */
+.filter-container input::before {
+  content: '\f002'; /* Código de icono de búsqueda (si usas FontAwesome) */
+  font-family: 'FontAwesome';
+  padding-right: 10px;
+}
+
 @media (max-width: 767px) {
   .col-md-3 {
     flex: 0 0 100%; /* Ocupa todo el ancho en pantallas pequeñas */

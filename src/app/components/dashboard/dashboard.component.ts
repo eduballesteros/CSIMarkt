@@ -3,7 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { HeaderDashboardComponent } from '../header-dashboard/header-dashboard.component';
 import { ProductService } from '../../services/product.service';
-import { ProductComponent } from '../product/product.component';
+import { ProductComponent } from '../product-login/product-login.component';
 import { Product } from '../../models/product.model';
 
 @Component({
@@ -17,6 +17,7 @@ export class DashboardComponent implements OnInit {
   title: string = "CSIMarkt - Dashboard";
   products: Product[] = [];
   filteredProducts: Product[] = [];
+  selectedCategory: string = '';  // Para almacenar la categoría seleccionada
 
   constructor(private productService: ProductService) {}
 
@@ -42,10 +43,30 @@ export class DashboardComponent implements OnInit {
    * @param category Categoría seleccionada.
    */
   onCategorySelected(category: string): void {
-    if (category === '') {
-      this.filteredProducts = this.products; // Mostrar todos los productos si no hay filtro
-    } else {
-      this.filteredProducts = this.products.filter((product) => product.category === category);
-    }
+    this.selectedCategory = category;
+    this.applyFilters();
+  }
+
+  /**
+   * Filtrar productos por nombre y categoría.
+   * @param searchText Texto a buscar en los productos.
+   */
+  onSearch(event: Event): void {
+    const inputElement = event.target as HTMLInputElement;
+    const searchText = inputElement.value.toLowerCase();
+    this.applyFilters(searchText);
+  }
+
+  /**
+   * Aplicar los filtros (por nombre y categoría).
+   * @param searchText Texto a buscar en los productos.
+   */
+  private applyFilters(searchText: string = ''): void {
+    this.filteredProducts = this.products.filter(product => {
+      const matchesName = product.name.toLowerCase().includes(searchText);
+      const matchesCategory = this.selectedCategory ? product.category === this.selectedCategory : true;
+      return matchesName && matchesCategory;
+    });
   }
 }
+

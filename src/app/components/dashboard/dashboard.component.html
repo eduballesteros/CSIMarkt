@@ -1,6 +1,16 @@
 <div class="app-container">
   <app-header-dashboard (categorySelected)="onCategorySelected($event)"></app-header-dashboard>
 
+  <div class="filter-container">
+    <input
+    type="text"
+    class="form-control"
+    placeholder="Buscar productos..."
+    (input)="onSearch($event)"
+  />
+
+  </div>
+
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-3" *ngFor="let product of filteredProducts">

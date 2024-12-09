@@ -24,4 +24,10 @@ export class ProductService {
       observer.complete();
     });
   }
+
+  getProductById(id: string): Observable<Product> {
+    const url = `${this.apiUrl}/${id}`;
+    return this.http.get<Product>(url);
+  }
+
 }
