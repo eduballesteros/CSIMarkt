@@ -34,7 +34,7 @@ Para ejecutar este proyecto en tu máquina local, sigue los siguientes pasos:
    -git clone https://github.com/eduballesteros/csimarkt.git
 
 2. Accede a la carpeta del proyecto:
-  -cd csimarkt
+  - cd csimarkt
 
 3. Instala las dependencias del proyecto:
   - npm install
