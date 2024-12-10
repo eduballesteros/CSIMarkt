@@ -28,9 +28,9 @@ export class HeaderDashboardComponent {
   selectedCategory: string = '';
 
   /**
-   * Método para emitir la categoría seleccionada.
+   * Método para enviar la categoría seleccionada.
    */
   onCategoryChange(): void {
-    this.categorySelected.emit(this.selectedCategory); // Emitir la categoría al componente padre
+    this.categorySelected.emit(this.selectedCategory);
   }
 }

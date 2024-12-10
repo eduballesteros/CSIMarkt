@@ -17,16 +17,18 @@ export class DashboardComponent implements OnInit {
   title: string = "CSIMarkt - Dashboard";
   products: Product[] = [];
   filteredProducts: Product[] = [];
-  selectedCategory: string = '';  // Para almacenar la categoría seleccionada
+  selectedCategory: string = '';
 
   constructor(private productService: ProductService) {}
 
+  // Llamada al método loadProducts para cargar los productos de la API nada más inicializar el componente
   ngOnInit(): void {
     this.loadProducts();
   }
 
   /**
-   * Cargar los productos desde la API.
+   * Método que recibe la lista de los productos desde la API. Una vez recibidos se guardan en la variable data.
+   * @param data Lista de productos obtenida de la API.
    */
   private loadProducts(): void {
     this.productService.getProducts().subscribe({
@@ -39,7 +41,7 @@ export class DashboardComponent implements OnInit {
   }
 
   /**
-   * Filtrar productos según la categoría seleccionada.
+   * Método que filtra por la categoría seleccionada.
    * @param category Categoría seleccionada.
    */
   onCategorySelected(category: string): void {
@@ -48,9 +50,10 @@ export class DashboardComponent implements OnInit {
   }
 
   /**
-   * Filtrar productos por nombre y categoría.
+   * Método que filtra por un buscador, teniendo ya en cuenta el filtro aplicado anteriormente.
    * @param searchText Texto a buscar en los productos.
    */
+
   onSearch(event: Event): void {
     const inputElement = event.target as HTMLInputElement;
     const searchText = inputElement.value.toLowerCase();
@@ -58,7 +61,7 @@ export class DashboardComponent implements OnInit {
   }
 
   /**
-   * Aplicar los filtros (por nombre y categoría).
+   * Método que aplica el filtro por nombre y por cátegoria.
    * @param searchText Texto a buscar en los productos.
    */
   private applyFilters(searchText: string = ''): void {

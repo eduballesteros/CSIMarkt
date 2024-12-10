@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProductService } from '../../services/product.service'; // Servicio para obtener los productos
-import { Product } from '../../models/product.model'; // Modelo del producto
+import { ProductService } from '../../services/product.service';
+import { Product } from '../../models/product.model';
 import { ProductComponent } from '../product/product.component';
 import { HeaderComponent } from '../header/header.component';
 
@@ -21,7 +21,10 @@ export class LandingPageComponent implements OnInit {
     this.loadProducts(); // Llamamos a la función para cargar productos
   }
 
-  // Función para cargar productos usando el servicio
+ /**
+   * Método que recibe la lista de los productos desde la API. Una vez recibidos se guardan en la variable data.
+   * @param data Lista de productos obtenida de la API.
+   */
   private loadProducts(): void {
     this.productService.getProducts().subscribe({
       next: (data) => {

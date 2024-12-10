@@ -20,6 +20,9 @@ export class ProductItemComponent implements OnInit {
     private productService: ProductService
   ) {}
 
+  /**
+   * Método que obtiene la ID del producto y asigna el producto correspondiente a esa ID.
+   */
   ngOnInit(): void {
     const productId = this.route.snapshot.paramMap.get('id');  // Obtén el ID del producto desde la URL
 

@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';  // Navegación entre rutas
-import { UserService } from '../../services/user.service';  // Servicio de usuario
-import { Usuario } from '../../models/usuario';  // Modelo Usuario
+import { Router } from '@angular/router';
+import { UserService } from '../../services/user.service';
+import { Usuario } from '../../models/usuario';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
@@ -13,14 +13,20 @@ import { FormsModule } from '@angular/forms';
   imports: [CommonModule, FormsModule]
 })
 export class LoginComponent {
-  usuario: Usuario = { id: '', username: '', email: '', password: '' }; // Modelo del usuario
-  message: string = '';  // Mensaje de éxito o error
-  isSuccess: boolean = false; // Indica si el login fue exitoso
+  usuario: Usuario = { id: '', username: '', email: '', password: '' };
+  message: string = '';
+  isSuccess: boolean = false;
 
   constructor(
     private userService: UserService,
     private router: Router
   ) {}
+
+  /**
+   * Método principal de inicio de sesión donde se comprueba que se han ingresado los campos de email y contraseña y comprueba que los campos
+   * coinciden.
+   * @returns
+   */
 
   login() {
     if (!this.usuario.email || !this.usuario.password) {
@@ -29,13 +35,13 @@ export class LoginComponent {
       return;
     }
 
-    // Llamar al servicio para validar las credenciales
+
     this.userService.login(this.usuario.email, this.usuario.password).subscribe({
       next: (response) => {
         if (response.success) {
           this.message = response.message;
           this.isSuccess = true;
-          this.router.navigate(['/dashboard']); // Redirige al dashboard
+          this.router.navigate(['/dashboard']);
         } else {
           this.message = response.message || 'Credenciales incorrectas';
           this.isSuccess = false;
@@ -49,7 +55,9 @@ export class LoginComponent {
     });
   }
 
-  // Redirigir a la página de registro
+  /**
+   * Método que redirige al método de registro.
+   */
   goToRegister() {
     this.router.navigate(['/register']);
   }
