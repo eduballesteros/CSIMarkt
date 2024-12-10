@@ -31,7 +31,7 @@ Esta aplicación tiene dos funcionalidades principales:
 Para ejecutar este proyecto en tu máquina local, sigue los siguientes pasos:
 
 1. Clona este repositorio:
-   -git clone https://github.com/eduballesteros/csimarkt.git
+   - git clone https://github.com/eduballesteros/csimarkt.git
 
 2. Accede a la carpeta del proyecto:
   - cd csimarkt
